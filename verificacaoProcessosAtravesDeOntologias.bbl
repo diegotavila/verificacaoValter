@@ -1,19 +1,10 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{1}
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\urlprefix}{URL }
 
 \bibitem{borst1997ontology}
 Borst, P., Akkermans, H.: {An ontology approach to product disassembly}. In:
   Knowledge Acquisition, Modeling and Management, pp. 33--48. Springer (1997)
-
-\bibitem{Krogstie2006}
-Krogstie, J., Sindre, G., J{\o}rgensen, H.: {Process models representing
-  knowledge for action: a revised quality framework}. European Journal of
-  Information Systems  15(December 2005),  91--102 (2006)
-
-\bibitem{Lindland1994}
-Lindland, O.I., Sindre, G., S{\o}lvberg, A.: {Understanding Quality in
-  Conceptual Modeling}. IEEE Software  11(2),  42--49 (1994)
 
 \bibitem{Mendling2008}
 Mendling, J.: {Metrics for Process Models}. Metrics for Process Models  6(0),
@@ -24,12 +15,6 @@ Mendling, J.: {Metrics for Process Models}. Metrics for Process Models  6(0),
 Mendling, J., Reijers, H.A., van~der Aalst, W.M.P.: {Seven process modeling
   guidelines (7PMG)}. Information and Software Technology  52(2),  127--136
   (2010)
-
-\bibitem{Mendling2007}
-Mendling, J., Neumann, G., Aalst, W.M.P.V.D.: {On the Correlation between
-  Process Model Metrics and Errors}. 26th international conference on
-  Conceptual modeling pp. 173--178 (2007),
-  \url{http://dl.acm.org/citation.cfm?id=1386985}
 
 \bibitem{Moreno-MontesdeOca2014}
 {Moreno-Montes de Oca}, I., Snoeck, M.: {Pragmatic guidelines for Business

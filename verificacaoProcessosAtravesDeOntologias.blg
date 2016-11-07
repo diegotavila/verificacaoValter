@@ -1,18 +1,33 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: verificacaoProcessosAtravesDeOntologias.aux
 White space in argument---line 3 of file verificacaoProcessosAtravesDeOntologias.aux
+ : \citation{Detection
+ :                     and Prediction of Errors in EPCs of the SAP Reference Model.}
+I'm skipping whatever remains of this command
+White space in argument---line 4 of file verificacaoProcessosAtravesDeOntologias.aux
+ : \citation{What
+ :                we can learn from Quality Issues of BPMN Models from Industry}
+I'm skipping whatever remains of this command
+White space in argument---line 6 of file verificacaoProcessosAtravesDeOntologias.aux
+ : \citation{What
+ :                we can learn from Quality Issues of BPMN Models from Industry}
+I'm skipping whatever remains of this command
+White space in argument---line 7 of file verificacaoProcessosAtravesDeOntologias.aux
  : \citation{Mendling
  :                    and Others}
 I'm skipping whatever remains of this command
-White space in argument---line 4 of file verificacaoProcessosAtravesDeOntologias.aux
+White space in argument---line 8 of file verificacaoProcessosAtravesDeOntologias.aux
  : \citation{Silver
  :                  and Others}
 I'm skipping whatever remains of this command
-White space in argument---line 24 of file verificacaoProcessosAtravesDeOntologias.aux
+White space in argument---line 27 of file verificacaoProcessosAtravesDeOntologias.aux
  : \citation{borst1997ontology,
  :                              Gruber1995907, Studer1998161}
 I'm skipping whatever remains of this command
 The style file: splncs03.bst
 Database file #1: ArtigoVerificacao.bib
+Warning--I didn't find a database entry for "aalst:2013"
+Warning--I didn't find a database entry for "7PMG"
 Warning--I didn't find a database entry for "?"
+Warning--I didn't find a database entry for "krogstie2012"
 Warning--empty journal in Moreno-MontesdeOca2014
-(There were 3 error messages)
+(There were 6 error messages)
