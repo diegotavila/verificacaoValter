@@ -52,18 +52,21 @@ It is widely accepted that modeling a process is difficult \cite{7PMG}. This is 
 %Guidelines - There are "rules of thumb" to modeling. We want to verify said rules with some formality.
 %FORMALITY is not the niche of this paper anymore. It's just a tool. It is actually that simple. It's this work greatest weakness, but we can't get away from it. 
 %IT's mostly still right, yes, guidelines "solve" the quality challenge, they do reduce complexity and prevent errors, they are many, etc, BUT their use is not that widespread, especially in professional tools.
-One of the most common ways to solve this challenge is through the use of guidelines for modeling, whose purpose is to help the user reduce the complexity and the number of errors in a process model by restricting undesirable constructs from being introduced. There have been many works proposing guidelines from both academics \cite{Mendling and Others} and practitioners of BPM \cite{Silver and Others} and, although some of these have been evidenced empirically, the verification of process models with the help of guidelines remains an informal procedure.
+%One of the most common ways to solve this challenge is through the use of guidelines for modeling, whose purpose is to help the user reduce the complexity and the number of errors in a process model by restricting undesirable constructs from being introduced. There have been many works proposing guidelines from both academics \cite{Mendling and Others} and practitioners of BPM \cite{Silver and Others} and, although some of these have been evidenced empirically, the verification of process models with the help of guidelines remains an informal procedure.
 
-One way to solve this challenge and help beginner modelers is to consolidate the knowledge of experienced modelers into guidelines, whose purpose is to help the user reduce the complexity and the number of errors in a process model by restricting undesirable constructs from being introduced.
+One way to solve this challenge and help beginner modelers is to consolidate the knowledge of experienced modelers into guidelines, whose purpose is to help the user reduce the complexity and the number of errors in a process model by restricting undesirable constructs from being introduced. Many guidelines have been proposed by both practitioners \cite{Silver2009} \cite{White2008} \cite{Allweyer2010} and researchers \cite{Becker2000} \cite{Mendling2007} \cite{Vanderfeesten2008} \cite{Correia2012}. Once it is verified that a process model is following a set of guidelines, we can assume that it has good comprehensibility.
 
-%Ontology - May provide that formality
-%THROW AWAY. Really. Ontology is only useful for syntax right now.
-It is possible to verify the correctness and relevance of process models through different ways. One of these is by the means of ontologies, which has seen wide-spread use in research on information science. Ontology is the study of being, which seeks to represent the world in entities, categories and relations \cite{Mendling2008}. In a more practical setting, an ontology provides a formal approach to defining types, properties and relations. Given this, we can create an ontology to express guidelines for process modeling and verify any models we can represent using it.
+
+However, %using guidelines to verify a model's comprehensibility
+doing that doesn't make sense if the process model is not syntactically correct. Any knowledge extracted from an incorrect process model has its validity compromised because, while you may be able to understand it, you may doubt whether it is what the modeler intended to portray \cite{Reijers2015}. Therefore, one must check if a process model is correct before considering it's comprehensibility.
+
+
+%Ontology - Verifies correctness
+It is possible to verify the correctness of process models through different ways. One of these is by the means of ontologies, which has seen wide-spread use in research on information science. Ontology is the study of being, which seeks to represent the world in entities, categories and relations \cite{Mendling2008}. In a more practical setting, an ontology provides an approach to define types, properties and relations. Given this, we can an ontology for process models as a meta-model to verify any process model correctness.
 
 
 %Hypothesis and %Objectives
-%HOW do I solve this... I will need a meeting.
-Along these lines, the purpose of this paper is to show how the use ontologies may assist in the identification of problems that increase the process complexity. To do that, we need to transform a process model into an ontology and, after that, verify it using a set of guidelines, pointing out problems that reduce the usability of a model.
+Along these lines, the purpose of this paper is to show how the use ontologies may assist in the identification of problems that reduce a process model comprehensibility. To do that, we need to input a process model into a process model ontology and, after that, verify it using a set of guidelines, pointing out any problems in the model that can be improved upon.
 
 
 %PaperStructure

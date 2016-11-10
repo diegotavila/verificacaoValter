@@ -1,10 +1,21 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\urlprefix}{URL }
+
+\bibitem{Becker2000}
+Becker, J., Rosemann, M., von Uthmann, C., Uthmann, C.V.: {Guidelines of
+  Business Process Modeling}. Business Process Management  1806,  241--262
+  (2000),
+  \url{http://www.springerlink.com/content/drwfdxguupx7evxb/$\backslash$nhttp://dx.doi.org/10.1007/3-540-45594-9{\_}3}
 
 \bibitem{borst1997ontology}
 Borst, P., Akkermans, H.: {An ontology approach to product disassembly}. In:
   Knowledge Acquisition, Modeling and Management, pp. 33--48. Springer (1997)
+
+\bibitem{Correia2012}
+Correia, A., Abreu, F.B.e.: {Adding Preciseness to BPMN Models}. Procedia
+  Technology  5,  407--417 (2012),
+  \url{http://www.sciencedirect.com/science/article/pii/S2212017312004768}
 
 \bibitem{Mendling2008}
 Mendling, J.: {Metrics for Process Models}. Metrics for Process Models  6(0),
@@ -15,6 +26,12 @@ Mendling, J.: {Metrics for Process Models}. Metrics for Process Models  6(0),
 Mendling, J., Reijers, H.A., van~der Aalst, W.M.P.: {Seven process modeling
   guidelines (7PMG)}. Information and Software Technology  52(2),  127--136
   (2010)
+
+\bibitem{Mendling2007}
+Mendling, J., Neumann, G., Aalst, W.M.P.V.D.: {On the Correlation between
+  Process Model Metrics and Errors}. 26th international conference on
+  Conceptual modeling pp. 173--178 (2007),
+  \url{http://dl.acm.org/citation.cfm?id=1386985}
 
 \bibitem{Moreno-MontesdeOca2014}
 {Moreno-Montes de Oca}, I., Snoeck, M.: {Pragmatic guidelines for Business
@@ -33,11 +50,26 @@ Rospocher, M., Ghidini, C., Serafini, L.: {An ontology for the Business Process
   \url{https://books.google.com.br/books?hl=en{\&}lr={\&}id=oG7YBAAAQBAJ{\&}oi=fnd{\&}pg=PA133{\&}dq=An+ontology+for+the+business+process+modelling+notation{\&}ots=yRMcLEOm8I{\&}sig=PyrDsoPLJUXqFwHSrJ-Pqy0xi5w
   http://dx.doi.org/10.3233/978-1-61499-438-1-133}
 
+\bibitem{Silver2009}
+Silver, B.: {BPMN Method and Style: A levels-based methodology for BPM process
+  modeling and improvement using BPMN 2.0} (2009),
+  \url{http://www.amazon.com/BPMN-Method-Style-levels-based-methodology/dp/0982368100}
+
 \bibitem{MoniqueSnoeckIsel2015}
 Snoeck, M., {Moreno-Montes de Oca}, I., Haegemans, T., Scheldeman, B., Hoste,
   T.: {Testing a selection of BPMN tools for their support of modelling
   guidelines}. In: Lecture Notes in Business Information Processing. vol. 235,
   pp. 111--125 (2015),
   \url{http://www.scopus.com/inward/record.url?eid=2-s2.0-84858309669{\&}partnerID=tZOtx3y1}
+
+\bibitem{Vanderfeesten2008}
+Vanderfeesten, I., Reijers, H.A., Mendling, J., {Van Der Aalst}, W.M.P.,
+  Cardoso, J.: {On a quest for good process models: The cross-connectivity
+  metric}. Lecture Notes in Computer Science (including subseries Lecture Notes
+  in Artificial Intelligence and Lecture Notes in Bioinformatics)  5074 LNCS,
+  480--494 (2008)
+
+\bibitem{White2008}
+White, S.a., Miers, D.: {BPMN Modeling and Reference Guide} (2008)
 
 \end{thebibliography}
