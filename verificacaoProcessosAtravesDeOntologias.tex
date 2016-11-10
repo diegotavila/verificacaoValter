@@ -54,7 +54,7 @@ It is widely accepted that modeling a process is difficult \cite{7PMG}. This is 
 %IT's mostly still right, yes, guidelines "solve" the quality challenge, they do reduce complexity and prevent errors, they are many, etc, BUT their use is not that widespread, especially in professional tools.
 %One of the most common ways to solve this challenge is through the use of guidelines for modeling, whose purpose is to help the user reduce the complexity and the number of errors in a process model by restricting undesirable constructs from being introduced. There have been many works proposing guidelines from both academics \cite{Mendling and Others} and practitioners of BPM \cite{Silver and Others} and, although some of these have been evidenced empirically, the verification of process models with the help of guidelines remains an informal procedure.
 
-One way to solve this challenge and help beginner modelers is to consolidate the knowledge of experienced modelers into guidelines, whose purpose is to help the user reduce the complexity and the number of errors in a process model by restricting undesirable constructs from being introduced. Many guidelines have been proposed by both practitioners \cite{Silver2009} \cite{White2008} \cite{Allweyer2010} and researchers \cite{Becker2000} \cite{Mendling2007} \cite{Vanderfeesten2008} \cite{Correia2012}. Once it is verified that a process model is following a set of guidelines, we can assume that it has good comprehensibility.
+One way to solve this challenge and help beginner modelers is to consolidate the knowledge of experienced modelers into process modeling guidelines, whose purpose is to help the user reduce the complexity and the number of errors in a process model by restricting undesirable constructs from being introduced. Many guidelines have been proposed by both practitioners \cite{Silver2009} \cite{White2008} \cite{Allweyer2010} and researchers \cite{Becker2000} \cite{Mendling2007} \cite{Vanderfeesten2008} \cite{Correia2012}. Once it is verified that a process model is following a set of guidelines, we can assume that it has good comprehensibility.
 
 
 However, %using guidelines to verify a model's comprehensibility
@@ -95,44 +95,30 @@ Signavio is actually very flexible in how it's guidelines are used. The entire s
 \section{Basic Notions}\label{Fundamentals}\label{Background}
 
 %Modeling %BPMN %Problems
-The modeling task of BPM is often done using the Business Process Model and Notation (BPMN). BPMN was developed by the Object Management Group (OMG), with the purpose of consolidating the many existing notations for process models in a single standard. This standard should provide a easy to comprehend notation to all stakeholders \cite{OMGObjectManagementGroup2015}. However, BPMN does not teach modelers how to use it's elements in the creation of simple and expressive process models. %In fact, a good number of  elements are only defined informally in plain english (Is this true? I have one citation for this)
-The consequence of this is that it's hard to achieve a a good level of quality in BPMN process models.
+%IMPROVE? Should I insert BPMN element types?
+The modeling task of BPM is often done using the Business Process Model and Notation (BPMN). BPMN was developed by the Object Management Group (OMG), with the purpose of consolidating the many existing notations for process models in a single standard. This standard should provide a easy to comprehend notation to all stakeholders \cite{OMGObjectManagementGroup2015}. However, BPMN does not teach modelers how to use it's elements in the creation of simple and expressive process models. The consequence of this is that it's hard to achieve a a good level of quality in BPMN process models.
 
 
 %Qualities
-%REWRITE, put a different focus. SEQUAL is a good for understanding what quality is, but how to increase model comprehension is more important. Krogstie does list a few solutions and the transformation solution is the most relevant for this paper. Maybe comment on each solution?
-
-%II don't want to get in fine detail about each quality though. I don't find Krogstie to be too well regarded in BPM, since most use a simplified , three qualities framework. Focus on comprehesion and understandability, insted of pragmatic/empirical.
-
-%ALSO, remove the "top-down" "bottom-up" perpectives. No need for them now, since Krogstie provides a direct link between the quality and the solution.
-%Sequal
-%It is important to understand what one tries to achieve when dealing with quality in modeling. From a Top-Down perspective, there are a number of frameworks that detail the types of qualities and goals a good model has. The SEQUAL Framework \cite{Krogstie2006,Lindland1994} is a notable one, that builds on semiotic theory and "defines several quality aspects based on relationships between a model, a body of knowledge, a domain, a modeling language, and the activities of learning, taking action, and modeling" \cite{Mendling2007}. Fundamentally, quality can be divided in syntactic quality, which categorizes how correct a model is in following the rules of it's language, semantic quality, which describes the validity and completeness of a model compared to reality, and pragmatic quality, which represents how useful a model is to learn and work with what it is representing.
-
-
 %REFERENCES
-This difficulty motivated the creation of many frameworks that try to define what a process model quality is and classify the different quality types that compose it. Examples of this are the SEQUAL Framework, the SIQ Framework and the Guidelines of Modeling (GoM).
+This difficulty motivated the creation of many frameworks that try to define what a process model quality is and classify the different quality types that compose it. Examples of these are the SEQUAL Framework, the Guidelines of Modeling (GoM) and, more recently, the SIQ framework, in which we base this work upon. The SIQ framework defines process model quality as factor of three basic quality types:
 
-One common quality that can be extracted from all of these frameworks is the comprehensibility of the process model, as one of it's primary goals is to be understood \cite{krogstie2012}.
+%REFERENCE OF SOUND
+\begin{itemize}
+	\item \textbf{Syntactic Quality} identifies if a process model conforms to the rules defined by the notation used to create it. In other words, if a process model follows the syntax and the vocabulary of its modeling language, we can verify that process model and declare it correct. To do so, the verification must check the static proprieties of a process model - how different types of elements are used and combined - and its behavioral proprieties - the process modeled should not reach a deadlock and must be completed properly, i.e the process model is \textit{sound}.
+	\item \textbf{Semantic Quality} bears the connection between a process model and the real world process it's supposed to represent. Checking a process model's semantic quality is, basically, making sure it is valid - all elements of the process model correctly represent the real world - and complete - there are no real world process parts that are missing in the process model. This check is simply called validation and, if it passes, the process model is determined true.
+	\item \textbf{Pragmatic Quality} characterizes the comprehensibility of a process model. It is the certification that a user's interpretation of a process model is equal to the actual, real world process. If done so, the process model is said to be understood.
+\end{itemize}
 
-%Guidelines
-%SHOULD I go into more detail about what a guideline is?
-%7PMG
-This Top-Down perspective, however, doesn't really help beginner modelers to achieve the desired quality in their models. For this reason, a Bottom-Up approach is more appropriate, involving guidelines. In \cite{Mendling2010}, seven process modeling guidelines (7PMG) have been proposed that are "thought to be helpful in guiding users towards improving the quality of their models, in the sense that these are likely (1) to become comprehensible to various stakeholders and (2) to contain few syntactical errors". These guidelines have been built upon empirical insights and, as such, provide a short but meaningful set of rules in which the work presented in this paper has been built upon. They are as follows:
-\begin{enumerate}
-	\item[G1] Use as few elements in the model as possible.
-	\item[G2] Minimize the routing paths per element.
-	\item[G3] Use one start and one end event.
-	\item[G4] Model as structured as possible. 
-	\item[G5] Avoid OR routing elements.
-	\item[G6] Use verb-object activity labels.
-	\item[G7] Decompose a model with more than 50 elements.
-\end{enumerate}
+Syntactic quality is the basis for the other two qualities. As mentioned before, it is not sensible to consider the comprehensibility of a process model if it is not syntactically correct. The same can be said of its semantic quality. As such, the verification of a process model must be done before its validation or certification.
 
-%TODO - Metion OWL
+%TODO - Metion OWL?
 %Ontology
-% BPMN->OWL Mapping 
-To verify these guidelines, we need to transform the model from the BPMN standard into a more formal one, which in this case is an ontology, because, in computer science, the most common definition of an ontology is an explicit and formal specification of a shared conceptualization \cite{borst1997ontology, Gruber1995907, Studer1998161}. The transformation between BPMN and an ontology is done through the use of the already existing \textit{BPMN Ontology} \cite{Rospocher2014foisbpmn}. This allows us to verify the process model, or more precisely its structure, through the use of an ontological reasoner. 
+As previolsy explained, it's possible to do this verification using an ontology. More specifically, we can use an ontology design to serve as a meta-model for a process modeling notation. In the case of BPMN, there exists what is called the \textit{BPMN Ontology} \cite{Rospocher2014foisbpmn}, which supports the mapping of a BPMN process model into elements of the ontology, while preserving the relations and strutures between the process model elements. Then, we can use an ontological reasoner to verify the mapped model, which will check if the static propreties of BPMN model, , i.e its structure, is correct according to the BPMN syntax.
 The Table \ref{BPMNOntologyMapping} shows how the mapping is done.
+
+%To verify these guidelines, we need to transform the model from the BPMN standard into a more formal one, which in this case is an ontology, because, in computer science, the most common definition of an ontology is an explicit and formal specification of a shared conceptualization \cite{borst1997ontology, Gruber1995907, Studer1998161}. The transformation between BPMN and an ontology is done through the use of the already existing \textit{BPMN Ontology} \cite{Rospocher2014foisbpmn}. This allows us to verify the process model, or more precisely its structure, through the use of an ontological reasoner. 
+%The Table \ref{BPMNOntologyMapping} shows how the mapping is done.
 
 \begin{table}[h]
 	\label{BPMNOntologyMapping}
@@ -149,6 +135,23 @@ The Table \ref{BPMNOntologyMapping} shows how the mapping is done.
 		\hline
 	\end{tabular} 
 \end{table}
+
+
+%Guidelines
+%SHOULD I go into more detail about what a guideline is?
+%7PMG
+Finally, assuming the process model is indeed correct, we can try yo ensure its pragmatic quality, which, in this case, is done by checking via the use of process modeling guidelines.  In \cite{Mendling2010}, seven process modeling guidelines (7PMG) have been proposed that are "thought to be helpful in guiding users towards improving the quality of their models, in the sense that these are likely (1) to become comprehensible to various stakeholders and (2) to contain few syntactical errors". These guidelines have been built upon empirical insights and, as such, provide a short but meaningful set of rules. They are as follows:
+\begin{enumerate}
+	\item[G1] Use as few elements in the model as possible.
+	\item[G2] Minimize the routing paths per element.
+	\item[G3] Use one start and one end event.
+	\item[G4] Model as structured as possible. 
+	\item[G5] Avoid OR routing elements.
+	\item[G6] Use verb-object activity labels.
+	\item[G7] Decompose a model with more than 50 elements.
+\end{enumerate}
+
+
 
 
 \section{Verifying Process Models based on Process Modeling Guidelines}\label{Methodology}
