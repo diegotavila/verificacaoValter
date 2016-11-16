@@ -11,19 +11,17 @@ White space in argument---line 6 of file verificacaoProcessosAtravesDeOntologias
  : \citation{What
  :                we can learn from Quality Issues of BPMN Models from Industry}
 I'm skipping whatever remains of this command
-White space in argument---line 30 of file verificacaoProcessosAtravesDeOntologias.aux
- : \citation{borst1997ontology,
- :                              Gruber1995907, Studer1998161}
-I'm skipping whatever remains of this command
-The style file: splncs03.bst
+The style file: apalike.bst
 Database file #1: ArtigoVerificacao.bib
 Warning--I didn't find a database entry for "aalst:2013"
 Warning--I didn't find a database entry for "7PMG"
 Warning--I didn't find a database entry for "Allweyer2010"
 Warning--I didn't find a database entry for "Reijers2015"
 Warning--I didn't find a database entry for "?"
-Warning--I didn't find a database entry for "krogstie2012"
+Warning--I didn't find a database entry for "recker2011evaluations"
+Warning--I didn't find a database entry for "Mendling:2012"
+Warning--I didn't find a database entry for "gassen2014business"
 Warning--empty journal in Moreno-MontesdeOca2014
-Warning--missing publisher in Silver2009
-Warning--missing publisher in White2008
-(There were 4 error messages)
+Warning--empty publisher in Silver2009
+Warning--empty publisher in White2008
+(There were 3 error messages)

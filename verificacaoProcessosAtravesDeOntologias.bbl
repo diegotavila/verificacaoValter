@@ -1,75 +1,71 @@
-\begin{thebibliography}{10}
-\providecommand{\url}[1]{\texttt{#1}}
-\providecommand{\urlprefix}{URL }
+\begin{thebibliography}{}
 
-\bibitem{Becker2000}
-Becker, J., Rosemann, M., von Uthmann, C., Uthmann, C.V.: {Guidelines of
-  Business Process Modeling}. Business Process Management  1806,  241--262
-  (2000),
-  \url{http://www.springerlink.com/content/drwfdxguupx7evxb/$\backslash$nhttp://dx.doi.org/10.1007/3-540-45594-9{\_}3}
+\bibitem[Becker et~al., 2000]{Becker2000}
+Becker, J., Rosemann, M., von Uthmann, C., and Uthmann, C.~V. (2000).
+\newblock {Guidelines of Business Process Modeling}.
+\newblock {\em Business Process Management}, 1806:241--262.
 
-\bibitem{borst1997ontology}
-Borst, P., Akkermans, H.: {An ontology approach to product disassembly}. In:
-  Knowledge Acquisition, Modeling and Management, pp. 33--48. Springer (1997)
+\bibitem[Correia and Abreu, 2012]{Correia2012}
+Correia, A. and Abreu, F. B.~e. (2012).
+\newblock {Adding Preciseness to BPMN Models}.
+\newblock {\em Procedia Technology}, 5:407--417.
 
-\bibitem{Correia2012}
-Correia, A., Abreu, F.B.e.: {Adding Preciseness to BPMN Models}. Procedia
-  Technology  5,  407--417 (2012),
-  \url{http://www.sciencedirect.com/science/article/pii/S2212017312004768}
+\bibitem[Mendling, 2008]{Mendling2008}
+Mendling, J. (2008).
+\newblock {Metrics for Process Models}.
+\newblock {\em Metrics for Process Models}, 6(0):103--133.
 
-\bibitem{Mendling2008}
-Mendling, J.: {Metrics for Process Models}. Metrics for Process Models  6(0),
-  103--133 (2008),
-  \url{http://link.springer.com/chapter/10.1007/978-3-540-89224-3{\_}4}
+\bibitem[Mendling et~al., 2007]{Mendling2007}
+Mendling, J., Neumann, G., and Aalst, W. M. P. V.~D. (2007).
+\newblock {On the Correlation between Process Model Metrics and Errors}.
+\newblock {\em 26th international conference on Conceptual modeling}, pages
+  173--178.
 
-\bibitem{Mendling2010}
-Mendling, J., Reijers, H.A., van~der Aalst, W.M.P.: {Seven process modeling
-  guidelines (7PMG)}. Information and Software Technology  52(2),  127--136
-  (2010)
+\bibitem[Mendling et~al., 2010]{Mendling2010}
+Mendling, J., Reijers, H.~A., and van~der Aalst, W. M.~P. (2010).
+\newblock {Seven process modeling guidelines (7PMG)}.
+\newblock {\em Information and Software Technology}, 52(2):127--136.
 
-\bibitem{Mendling2007}
-Mendling, J., Neumann, G., Aalst, W.M.P.V.D.: {On the Correlation between
-  Process Model Metrics and Errors}. 26th international conference on
-  Conceptual modeling pp. 173--178 (2007),
-  \url{http://dl.acm.org/citation.cfm?id=1386985}
+\bibitem[{Moreno-Montes de Oca} and Snoeck, 2014]{Moreno-MontesdeOca2014}
+{Moreno-Montes de Oca}, I. and Snoeck, M. (2014).
+\newblock {Pragmatic guidelines for Business Process Modeling}.
+\newblock page~70.
 
-\bibitem{Moreno-MontesdeOca2014}
-{Moreno-Montes de Oca}, I., Snoeck, M.: {Pragmatic guidelines for Business
-  Process Modeling} p.~70 (2014)
+\bibitem[{OMG ( Object Management Group)}, 2015]{OMGObjectManagementGroup2015}
+{OMG ( Object Management Group)} (2015).
+\newblock {BPMN Specification - Business Process Model and Notation}.
 
-\bibitem{OMGObjectManagementGroup2015}
-{OMG ( Object Management Group)}: {BPMN Specification - Business Process Model
-  and Notation} (2015), \url{http://www.bpmn.org/}
-
-\bibitem{Rospocher2014foisbpmn}
-Rospocher, M., Ghidini, C., Serafini, L.: {An ontology for the Business Process
-  Modelling Notation}. In: Garbacz, P., Kutz, O. (eds.) Formal Ontology in
+\bibitem[Rospocher et~al., 2014]{Rospocher2014foisbpmn}
+Rospocher, M., Ghidini, C., and Serafini, L. (2014).
+\newblock {An ontology for the Business Process Modelling Notation}.
+\newblock In Garbacz, P. and Kutz, O., editors, {\em Formal Ontology in
   Information Systems - Proceedings of the Eighth International Conference,
-  FOIS2014, September, 22-25, 2014, Rio de Janeiro, Brazil. vol. 267, pp.
-  133--146. IOS Press (2014),
-  \url{https://books.google.com.br/books?hl=en{\&}lr={\&}id=oG7YBAAAQBAJ{\&}oi=fnd{\&}pg=PA133{\&}dq=An+ontology+for+the+business+process+modelling+notation{\&}ots=yRMcLEOm8I{\&}sig=PyrDsoPLJUXqFwHSrJ-Pqy0xi5w
-  http://dx.doi.org/10.3233/978-1-61499-438-1-133}
+  FOIS2014, September, 22-25, 2014, Rio de Janeiro, Brazil}, volume 267, pages
+  133--146. IOS Press.
 
-\bibitem{Silver2009}
-Silver, B.: {BPMN Method and Style: A levels-based methodology for BPM process
-  modeling and improvement using BPMN 2.0} (2009),
-  \url{http://www.amazon.com/BPMN-Method-Style-levels-based-methodology/dp/0982368100}
+\bibitem[Silver, 2009]{Silver2009}
+Silver, B. (2009).
+\newblock {\em {BPMN Method and Style: A levels-based methodology for BPM
+  process modeling and improvement using BPMN 2.0}}.
 
-\bibitem{MoniqueSnoeckIsel2015}
-Snoeck, M., {Moreno-Montes de Oca}, I., Haegemans, T., Scheldeman, B., Hoste,
-  T.: {Testing a selection of BPMN tools for their support of modelling
-  guidelines}. In: Lecture Notes in Business Information Processing. vol. 235,
-  pp. 111--125 (2015),
-  \url{http://www.scopus.com/inward/record.url?eid=2-s2.0-84858309669{\&}partnerID=tZOtx3y1}
+\bibitem[Snoeck et~al., 2015]{MoniqueSnoeckIsel2015}
+Snoeck, M., {Moreno-Montes de Oca}, I., Haegemans, T., Scheldeman, B., and
+  Hoste, T. (2015).
+\newblock {Testing a selection of BPMN tools for their support of modelling
+  guidelines}.
+\newblock In {\em Lecture Notes in Business Information Processing}, volume
+  235, pages 111--125.
 
-\bibitem{Vanderfeesten2008}
-Vanderfeesten, I., Reijers, H.A., Mendling, J., {Van Der Aalst}, W.M.P.,
-  Cardoso, J.: {On a quest for good process models: The cross-connectivity
-  metric}. Lecture Notes in Computer Science (including subseries Lecture Notes
-  in Artificial Intelligence and Lecture Notes in Bioinformatics)  5074 LNCS,
-  480--494 (2008)
+\bibitem[Vanderfeesten et~al., 2008]{Vanderfeesten2008}
+Vanderfeesten, I., Reijers, H.~A., Mendling, J., {Van Der Aalst}, W. M.~P., and
+  Cardoso, J. (2008).
+\newblock {On a quest for good process models: The cross-connectivity metric}.
+\newblock {\em Lecture Notes in Computer Science (including subseries Lecture
+  Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)}, 5074
+  LNCS:480--494.
 
-\bibitem{White2008}
-White, S.a., Miers, D.: {BPMN Modeling and Reference Guide} (2008)
+\bibitem[White and Miers, 2008]{White2008}
+White, S.~a. and Miers, D. (2008).
+\newblock {\em {BPMN Modeling and Reference Guide}}.
 
 \end{thebibliography}
