@@ -8,8 +8,8 @@
 \documentclass[a4paper,twoside]{article}
 
 \usepackage[utf8]{inputenc} 
-\usepackage{mathptmx}
-\usepackage{textcomp}
+%\usepackage{mathptmx}
+%\usepackage{textcomp}
 
 \usepackage{epsfig}
 \usepackage{subfigure}
@@ -79,7 +79,7 @@ It is possible to verify the correctness of process models through different way
 
 
 %Hypothesis and %Objectives
-Along these lines, the purpose of this paper is to show how the use ontologies may assist in the identification of problems that reduce a process model comprehensibility. To do that, we need to input a process model into a process model ontology and, after that, verify it using a set of guidelines, pointing out any problems in the model that can be improved upon.
+Along these lines, the purpose of this paper is to show how the use of ontologies may assist in the identification of problems that reduce a process model comprehensibility. To do that, it is necessary to input a process model into a process model ontology and, after that, verify it using a set of process modeling guidelines, pointing out any problems in the model that can be improved upon.
 
 
 %PaperStructure
@@ -91,7 +91,7 @@ This paper is organized as follows: Section \ref{RelatedWorks} outlines previous
 %Verification Works
 
 %Through Correctness
-The verification of business process models is nothing new, in fact, there have been numerous papers and books published that address this. The difference is that most of these publications are concerned with issues of correctness of a process model. In \cite{Mendling2008}, for example, the author proposes two different approaches to verifying soundness of a process model draw using Event-Process-Chains.
+\noindent The verification of business process models is nothing new, in fact, there have been numerous papers and books published that address this. The difference is that most of these publications are concerned with issues of correctness of a process model. In \cite{Mendling2008}, for example, the author proposes two different approaches to verifying soundness of a process model draw using Event-Process-Chains.
 	
 %Through Metrics 
 Evaluating and reducing the complexity of a process model, though, is harder to achieve. It is not possible to measure a process complexity directly and, because of this, many metrics have been proposed that try this indirectly. \cite{?}. The validity of these metrics is evidenced through statistical experiments, where models are judged both by the metrics and by people with varying levels of modeling experience.
@@ -109,7 +109,7 @@ Signavio is actually very flexible in how it's guidelines are used. The entire s
 
 %Modeling %BPMN %Problems
 %IMPROVE? Should I insert BPMN element types?
-The modeling task of BPM is often done using the Business Process Model and Notation (BPMN). BPMN was developed by the Object Management Group (OMG), with the purpose of consolidating the many existing notations for process models in a single standard. This standard should provide a easy to comprehend notation to all stakeholders \cite{OMGObjectManagementGroup2015}. However, BPMN does not teach modelers how to use it's elements in the creation of simple and expressive process models. The consequence of this is that it's hard to achieve a a good level of quality in BPMN process models.
+\noindent The modeling task of BPM is often done using the Business Process Model and Notation (BPMN). BPMN was developed by the Object Management Group (OMG), with the purpose of consolidating the many existing notations for process models in a single standard. This standard should provide a easy to comprehend notation to all stakeholders \cite{OMGObjectManagementGroup2015}. However, BPMN does not teach modelers how to use it's elements in the creation of simple and expressive process models. The consequence of this is that it's hard to achieve a a good level of quality in BPMN process models.
 
 
 %Qualities
@@ -153,7 +153,8 @@ Finally, assuming the process model is indeed correct, we can try yo ensure its 
 
 \section{METHODOLOGY}\label{Methodology}
 
-To fulfill the purpose of this paper, we must create a series of steps that, with the assistance of an ontology, allows us to verify whether a process model follows the seven process modeling guidelines. However, before we can into this, there are a few questions we must answer. 
+
+\noindent To fulfill the purpose of this paper, we must define a series of steps that, with the assistance of an ontology, allows us check a process model pragmatic quality by verifying whether it follows Mendling's seven process modeling guidelines. However, before we can do this, there are a few questions we must answer. 
 
 To start with, we must decide how are the process models going to be represented. A few different notations for process models exist and each notation has different ways of how the model is coded within a file. As you can imply from our previous chapter, the notation used in this work will be BPMN 2.0. Models using this notation can usually be exported into the interchangeable format defined by OMG, which is simply a XML file with a specific schema and a .bpmn extension \cite{OMGObjectManagementGroup2015}. From this file, we can easily map elements from the model into the an ontology, via the \textit{BPMN Ontology}.
 
@@ -161,8 +162,8 @@ Secondly, we need to establish how we are going to check whether or not a guidel
 
 \begin{table}[]
 	\centering
-	\label{Metrics}
 	\caption{Parameters tested for each guideline from 7PMG}
+	\label{Metrics}
 	\begin{tabular}{|c|c|}
 		\hline
 		7PMG & Parameters \\ \hline
@@ -183,16 +184,16 @@ G1, the guideline for encouraging the use of less elements when modeling, become
 G6, which tells us to label activities in the verb-object style, is the second problematic guideline. In this case, the problem is the complexity of checking the language of each label. It exceeds the scope of this work, since it requires the use of Natural Language Processing to identify the words of each label and compare them and their use against a thesaurus to define context \cite{gassen2014business}. Therefore, we are ignoring this guideline.
 
 \begin{table*}[]
-	\label{BPMNOntologyMapping}
 	\caption{BPMN $\Rightarrow$ Ontology Mapping}
+	\label{bpmnOntologyMapping}
 	\centering
-	\begin{tabular}{ccc}
+	\begin{tabular}{| c |c |c |}
 		\hline
 		BPMN & Ontology & Example \\
 		\hline
-		Element Type & OWL Class & Activity, Gateway \\
-		Element Instance & Individual Named & Task 1: Submit Report \\  
-		Attribute & Object Property & Label="Name" \\
+		Element Type & OWL Class & Activity, Gateway \\\hline
+		Element Instance & Individual Named & Task 1: Submit Report \\  \hline
+		Attribute & Object Property & Label="Name" \\\hline
 		Attribute Value & Data Property & Name:String="Task 1: Submit Report" \\ 
 		\hline
 	\end{tabular} 
@@ -202,26 +203,15 @@ G6, which tells us to label activities in the verb-object style, is the second p
 Finally, we must determine how are we going to load and edit an ontology. We chose to use the ontology editor \textit{Protégé} \footnote{http://protege.stanford.edu/}. \textit{Protégé} not only can verify the integrity of ontologies using an inference engine, it is also easily extensible through the use of plugins. %Both features will be helpful in our method.
 
 \subsection{Verifying Process Models Based on Process Modeling Guidelines}
-Given the decisions made in this previous section, we can define a method to verify the process models.
+\noindent Given the decisions made in this previous section, we can define a method to verify the process models. Our objective is to map and load BPMN models into an ontology using \textit{Protégé} and then checking those models using Mendling's guidelines.
 
+The first step is simply to prepare \textit{Protégé} for instantiating BPMN models. To do this, we load BPMN ontology into the editor, so that it will support the mapping of elements from BPMN to the ontology by serving as the meta-model containing the structuring rules of BPMN.
 
-\begin{enumerate}
-	\item Load the BPMN Ontology into \textit{Protégé}
-	\item Extract each individual element from a BPMN model.
-	\item Instantiate each extracted element into \textit{Protégé} via OWL-API and using the BPMN Ontology.
-	\item Use \textit{Protégé}'s inference engine to verify the integrity of the new ontology.
-	\item Check if the model's parameters obey the limits defined by the modeling guidelines.
-	\item For each guideline not followed, recommend model alterations to solve the issue.
-\end{enumerate}
+Once that is done, we can begin extracting the individual elements from the BPMN models and instantiating each of them into the ontology. We developed a Java plugin for \textit{Protégé} which reads the .bpmn file of the process models and extracts its tasks, gateways, sequence flows and messages. After that, this same plugin uses the OWL-API to create individuals for each element, mapping and instantiating them according to each type described by the BPMN Ontology. The table \ref{bpmnOntologyMapping} shows how the mapping is done.
 
-The first step is simply preparatory. The BPMN ontology will support the mapping of elements from BPMN to the ontology by serving as the meta-model containing the structuring rules of BPMN.
+After this is completed, we can finally have the ontology assist us in checking the process model syntax.  Using \textit{Protégé} inference engine, we can verify the ontology's integrity. If this is successful, it can be assumed that the structure of the BPMN model mapped into Protégé is syntactically correct, since any syntactical error in the process model's structure would violate the ontology's integrity according to the BPMN Ontology.
 
-The second step is done through a Java plugin for \textit{Protégé}, which reads the .bpmn file of a process model, extracting each of its elements (its tasks, gateways, sequence flows, messages and others). After that, this same plugin does the third step, using the OWL-API to create individuals for each element, mapping and instantiating them according to each type described by the BPMN Ontology. The table \ref{BPMNOntologyMapping} shows how the mapping is done.
-
-
-After this is completed, the fourth step consists of opening the instantiated model in Protégé to verify its integrity. If this is successful, it can be assumed that the structure of the BPMN model mapped into Protégé is syntactically correct, since any syntactical error in the process model's structure would violate the ontology's integrity according to the BPMN Ontology.
-
-All that remains now is checking the process model according the guidelines. The fifth step uses another Java Plugin for \textit{Protégé} that checks the process model's parameters. It then show recommendations according to the table \ref{RecommendedActions} for the sixth step.
+The final steps of this method are checking the process model according Medling's guidelines and recommending alterations based upon the results. We developed another Java Plugin that checks the process model's parameters and, for each violated guideline, the plugin recommends actions according to the table \ref{RecommendedActions}.
 
 \begin{table}[]
 	\centering
@@ -238,6 +228,16 @@ All that remains now is checking the process model according the guidelines. The
 	\end{tabular}
 \end{table}
 
+The entire series of steps is as follow:
+
+\begin{enumerate}
+	\item Load the BPMN Ontology into \textit{Protégé}
+	\item Extract each individual element from a BPMN model.
+	\item Instantiate each extracted element into \textit{Protégé} via OWL-API and using the BPMN Ontology.
+	\item Use \textit{Protégé}'s inference engine to verify the integrity of the new ontology.
+	\item Check if the model's parameters obey the limits defined by the modeling guidelines.
+	\item Recommend model alterations for each guideline not followed.
+\end{enumerate}
 
 %To verify the model according to the 7PMG, a plug-in for Protégé was developed, in which each guideline proposed had to be represented. For most guidelines (G1, G2, G3, G5, G7), we can do this using a simple test performed on top of a model's metrics. For G4, we simplify the guideline by measuring the number of splits and joins for each type of gateway. If that number is different then G4 has been disobeyed. Finally, G6 involves natural language processing for analyzing the syntax of each label, which is something outside of the scope of the work presented in this paper, therefore it has been left out. Table \ref{Metrics} shows each rule and associated metric being tested. Finally, the results of the verification are shown using a another plug-in in Protégé. The result of the test of each guideline is show with a "True" or "False" value.
 
@@ -245,9 +245,45 @@ All that remains now is checking the process model according the guidelines. The
 
 
 \section{CASE STUDY AND RESULTS}\label{CaseStudy}
+
+\noindent To validate our method, we applied it to a collection of 31 BPMN models. These are models of the the processes of a university, created by students of BPM, verified and corrected by their professor and semantically validated by each model's stakeholders. 
+
+\begin{table}[]
+	\centering
+	\caption{Number of violations Per guideline}
+	\label{ViolationsPerGuideline}
+	\begin{tabular}{|c|c|c|}
+		\hline
+		& Total Violations & Percent of Total \\ \hline
+		G2 & 2 & 6.45\% \\ \hline
+		G3 & 1 & 3.23\% \\ \hline
+		G4 & 10 & 32.26\% \\ \hline
+		G5 & 4 & 12.90\% \\ \hline
+		G7 & 8 & 25.81\% \\ \hline
+	\end{tabular}
+\end{table}
+
+
+\begin{table}[]
+	\centering
+	\caption{Number of models per quantity of violations}
+	\label{ModelsPerQuantityOfViolation}
+	\begin{tabular}{|c|c|}
+		\hline
+		& Number of Models \\ \hline
+		No violations & 12 \\ \hline
+		One violation & 14 \\ \hline
+		Two violations & 4 \\ \hline
+		Three violations & 1 \\ \hline
+	\end{tabular}
+\end{table}
+
 \section{CONCLUSIONS}\label{Conclusion}
+
+\noindent 
 \subsection{Limitations}
 
+\noindent 
 %Note that the BPMN ontology is not worried with modeling the process dynamic behavior.
 
 %\bibliographystyle{splncs03}
