@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.8.31)  17 NOV 2016 15:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.8.31)  18 NOV 2016 12:54
 entering extended mode
 **./verificacaoProcessosAtravesDeOntologias.tex
 (verificacaoProcessosAtravesDeOntologias.tex
@@ -741,17 +741,17 @@ LaTeX Warning: Citation `What we can learn from Quality Issues of BPMN Models f
 rom Industry' on page 1 undefined on input line 53.
 
 
-LaTeX Warning: Citation `7PMG' on page 1 undefined on input line 62.
+LaTeX Warning: Citation `7PMG' on page 1 undefined on input line 61.
 
 
 LaTeX Warning: Citation `What we can learn from Quality Issues of BPMN Models f
-rom Industry' on page 1 undefined on input line 62.
+rom Industry' on page 1 undefined on input line 61.
 
 
-LaTeX Warning: Citation `Allweyer2010' on page 1 undefined on input line 70.
+LaTeX Warning: Citation `Allweyer2010' on page 1 undefined on input line 67.
 
 
-LaTeX Warning: Citation `Reijers2015' on page 1 undefined on input line 74.
+LaTeX Warning: Citation `Reijers2015' on page 1 undefined on input line 70.
 
 [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
 
@@ -760,10 +760,10 @@ LaTeX Warning: Citation `Reijers2015' on page 1 undefined on input line 74.
 
 ]
 
-LaTeX Warning: Citation `?' on page 2 undefined on input line 97.
+LaTeX Warning: Citation `?' on page 2 undefined on input line 93.
 
 
-Underfull \hbox (badness 1038) in paragraph at lines 112--113
+Underfull \hbox (badness 1038) in paragraph at lines 108--109
 \OT1/ptm/m/n/10 The mod-el-ing task of BPM is of-ten done us-ing
  []
 
@@ -771,47 +771,47 @@ Underfull \hbox (badness 1038) in paragraph at lines 112--113
 Underfull \vbox (badness 5832) has occurred while \output is active []
 
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/pzccm/m/n' tried instead on input line 121.
+(Font)              Font shape `OMS/pzccm/m/n' tried instead on input line 117.
 
  [2]
 
 LaTeX Warning: Citation `recker2011evaluations' on page 3 undefined on input li
-ne 161.
+ne 159.
 
 
-LaTeX Warning: Citation `Mendling:2012' on page 3 undefined on input line 161.
+LaTeX Warning: Citation `Mendling:2012' on page 3 undefined on input line 159.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 163.
+               Default added (so using `tbp') on input line 161.
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 167.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 165.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 167.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 165.
 
 LaTeX Warning: Citation `gassen2014business' on page 3 undefined on input line 
-184.
+182.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 186.
+               Default added (so using `tbp') on input line 184.
 
 [3]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 205.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 203.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 216.
+               Default added (so using `tbp') on input line 214.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 251.
+               Default added (so using `tbp') on input line 249.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 267.
+               Default added (so using `tbp') on input line 265.
 
 (verificacaoProcessosAtravesDeOntologias.bbl [4]) [5]
 (verificacaoProcessosAtravesDeOntologias.aux) ) 
@@ -830,7 +830,7 @@ e1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1
 blic/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/
 times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8
 a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on verificacaoProcessosAtravesDeOntologias.pdf (5 pages, 98224 b
+Output written on verificacaoProcessosAtravesDeOntologias.pdf (5 pages, 98225 b
 ytes).
 PDF statistics:
  43 PDF objects out of 1000 (max. 8388607)
