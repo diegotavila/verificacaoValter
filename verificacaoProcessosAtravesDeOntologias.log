@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.8.31)  18 NOV 2016 12:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.8.31)  21 NOV 2016 16:24
 entering extended mode
 **./verificacaoProcessosAtravesDeOntologias.tex
 (verificacaoProcessosAtravesDeOntologias.tex
@@ -335,6 +335,9 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
+\bigstrutjot=\dimen103
+)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\epsfig.sty"
 Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
 
@@ -367,19 +370,19 @@ Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count87
 ))
-\Gin@req@height=\dimen103
-\Gin@req@width=\dimen104
+\Gin@req@height=\dimen104
+\Gin@req@width=\dimen105
 )
-\epsfxsize=\dimen105
-\epsfysize=\dimen106
+\epsfxsize=\dimen106
+\epsfysize=\dimen107
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\subfigure\subfigure.sty"
 Package: subfigure 2002/07/30 v2.1.4 subfigure package
 \subfigtopskip=\skip43
 \subfigcapskip=\skip44
-\subfigcaptopadj=\dimen107
+\subfigcaptopadj=\dimen108
 \subfigbottomskip=\skip45
-\subfigcapmargin=\dimen108
+\subfigcapmargin=\dimen109
 \subfiglabelskip=\skip46
 \c@subfigure=\count88
 \c@lofdepth=\count89
@@ -397,8 +400,8 @@ Package: subfigure 2002/07/30 v2.1.4 subfigure package
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count92
 \calc@Bcount=\count93
-\calc@Adimen=\dimen109
-\calc@Bdimen=\dimen110
+\calc@Adimen=\dimen110
+\calc@Bdimen=\dimen111
 \calc@Askip=\skip49
 \calc@Bskip=\skip50
 LaTeX Info: Redefining \setlength on input line 80.
@@ -423,7 +426,7 @@ Package: amstext 2000/06/29 v2.01 AMS text
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks18
-\ex@=\dimen111
+\ex@=\dimen112
 ))
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
 Package: amsmath 2016/06/28 v2.15d AMS math features
@@ -432,7 +435,7 @@ Package: amsmath 2016/06/28 v2.15d AMS math features
 For additional information on amsmath, use the `?' option.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen112
+\pmbraise@=\dimen113
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
 Package: amsopn 2016/03/08 v2.02 operator names
@@ -449,7 +452,7 @@ LaTeX Info: Redefining \dots on input line 397.
 LaTeX Info: Redefining \cdots on input line 518.
 \Mathstrutbox@=\box26
 \strutbox@=\box27
-\big@size=\dimen113
+\big@size=\dimen114
 LaTeX Font Info:    Redeclaring font encoding OML on input line 634.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
 \macc@depth=\count100
@@ -462,12 +465,12 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
 \column@=\count105
 \maxfields@=\count106
 \andhelp@=\toks20
-\eqnshift@=\dimen114
-\alignsep@=\dimen115
-\tagshift@=\dimen116
-\tagwidth@=\dimen117
-\totwidth@=\dimen118
-\lineht@=\dimen119
+\eqnshift@=\dimen115
+\alignsep@=\dimen116
+\tagshift@=\dimen117
+\tagwidth@=\dimen118
+\totwidth@=\dimen119
+\lineht@=\dimen120
 \@envbody=\toks21
 \multlinegap=\skip53
 \multlinetaggap=\skip54
@@ -491,21 +494,21 @@ Package: amsthm 2015/03/04 v2.20.2
 Package: multicol 2016/04/07 v1.8p multicolumn formatting (FMi)
 \c@tracingmulticols=\count107
 \mult@box=\box28
-\multicol@leftmargin=\dimen120
+\multicol@leftmargin=\dimen121
 \c@unbalance=\count108
 \c@collectmore=\count109
 \doublecol@number=\count110
 \multicoltolerance=\count111
 \multicolpretolerance=\count112
-\full@width=\dimen121
-\page@free=\dimen122
-\premulticols=\dimen123
-\postmulticols=\dimen124
+\full@width=\dimen122
+\page@free=\dimen123
+\premulticols=\dimen124
+\postmulticols=\dimen125
 \multicolsep=\skip58
 \multicolbaselineskip=\skip59
 \partial@page=\box29
 \last@line=\box30
-\maxbalancingoverflow=\dimen125
+\maxbalancingoverflow=\dimen126
 \mult@rightbox=\box31
 \mult@grightbox=\box32
 \mult@gfirstbox=\box33
@@ -529,9 +532,9 @@ Package: multicol 2016/04/07 v1.8p multicolumn formatting (FMi)
 \@tempa=\box51
 \c@columnbadness=\count113
 \c@finalcolumnbadness=\count114
-\last@try=\dimen126
-\multicolovershoot=\dimen127
-\multicolundershoot=\dimen128
+\last@try=\dimen127
+\multicolovershoot=\dimen128
+\multicolundershoot=\dimen129
 \mult@nat@firstbox=\box52
 \colbreak@box=\box53
 \mc@col@check@num=\count115
@@ -582,13 +585,13 @@ Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\caption3.sty"
 Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 67.
-\captionmargin=\dimen129
-\captionmargin@=\dimen130
-\captionwidth=\dimen131
-\caption@tempdima=\dimen132
-\caption@indent=\dimen133
-\caption@parindent=\dimen134
-\caption@hangindent=\dimen135
+\captionmargin=\dimen130
+\captionmargin@=\dimen131
+\captionwidth=\dimen132
+\caption@tempdima=\dimen133
+\caption@indent=\dimen134
+\caption@parindent=\dimen135
+\caption@hangindent=\dimen136
 )
 \c@ContinuedFloat=\count116
 Package caption Info: subfigure package is loaded.
@@ -618,13 +621,13 @@ LaTeX Font Info:    ... okay on input line 30.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count117
-\scratchdimen=\dimen136
+\scratchdimen=\dimen137
 \scratchbox=\box54
 \nofMPsegments=\count118
 \nofMParguments=\count119
 \everyMPshowfont=\toks29
 \MPscratchCnt=\count120
-\MPscratchDim=\dimen137
+\MPscratchDim=\dimen138
 \MPnumerator=\count121
 \makeMPintoPDFobject=\count122
 \everyMPtoPDFconversion=\toks30
@@ -760,35 +763,49 @@ LaTeX Warning: Citation `Reijers2015' on page 1 undefined on input line 70.
 
 ]
 
-LaTeX Warning: Citation `?' on page 2 undefined on input line 93.
+LaTeX Warning: Citation `Quality metrics for business process models' on page 2
+ undefined on input line 93.
 
 
-Underfull \hbox (badness 1038) in paragraph at lines 108--109
+LaTeX Warning: Citation `MetricsForProcessModels' on page 2 undefined on input 
+line 93.
+
+
+LaTeX Warning: Citation `Complexity metrics for business process models' on pag
+e 2 undefined on input line 93.
+
+
+LaTeX Warning: Citation `Process control-flow complexity metric: An empirical v
+alidation' on page 2 undefined on input line 93.
+
+
+LaTeX Warning: Citation `Prediction of business process model quality based on 
+structural metrics' on page 2 undefined on input line 93.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 99.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 99.
+
+Underfull \hbox (badness 1038) in paragraph at lines 106--107
 \OT1/ptm/m/n/10 The mod-el-ing task of BPM is of-ten done us-ing
  []
 
-
-Underfull \vbox (badness 5832) has occurred while \output is active []
-
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/pzccm/m/n' tried instead on input line 117.
+(Font)              Font shape `OMS/pzccm/m/n' tried instead on input line 115.
 
- [2]
+[2]
 
 LaTeX Warning: Citation `recker2011evaluations' on page 3 undefined on input li
-ne 159.
+ne 157.
 
 
-LaTeX Warning: Citation `Mendling:2012' on page 3 undefined on input line 159.
+LaTeX Warning: Citation `Mendling:2012' on page 3 undefined on input line 157.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 161.
+               Default added (so using `tbp') on input line 159.
 
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 165.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 165.
 
 LaTeX Warning: Citation `gassen2014business' on page 3 undefined on input line 
 182.
@@ -797,32 +814,41 @@ LaTeX Warning: Citation `gassen2014business' on page 3 undefined on input line
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 184.
 
-[3]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 203.
 
+Underfull \vbox (badness 1242) has occurred while \output is active []
+
+ [3]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 214.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 249.
+               Default added (so using `tbp') on input line 251.
+
+
+Overfull \hbox (5.68538pt too wide) in paragraph at lines 255--264
+ [][] 
+ []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 265.
+               Default added (so using `tbp') on input line 266.
 
-(verificacaoProcessosAtravesDeOntologias.bbl [4]) [5]
+[4] (verificacaoProcessosAtravesDeOntologias.bbl [5]) [6
+
+]
 (verificacaoProcessosAtravesDeOntologias.aux) ) 
 Here is how much of TeX's memory you used:
- 4551 strings out of 493334
- 64913 string characters out of 3136678
- 134438 words of memory out of 3000000
- 7975 multiletter control sequences out of 15000+200000
+ 4570 strings out of 493334
+ 65515 string characters out of 3136678
+ 137653 words of memory out of 3000000
+ 7990 multiletter control sequences out of 15000+200000
  54112 words of font info for 118 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,14n,40p,903b,271s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,14n,40p,903b,275s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2
 .9/fonts/enc/dvips/fontname/8r.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/typ
 e1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1
@@ -830,10 +856,10 @@ e1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1
 blic/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/
 times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8
 a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on verificacaoProcessosAtravesDeOntologias.pdf (5 pages, 98225 b
-ytes).
+Output written on verificacaoProcessosAtravesDeOntologias.pdf (6 pages, 102196 
+bytes).
 PDF statistics:
- 43 PDF objects out of 1000 (max. 8388607)
+ 46 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

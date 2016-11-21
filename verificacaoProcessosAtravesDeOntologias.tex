@@ -10,7 +10,7 @@
 \usepackage[utf8]{inputenc} 
 %\usepackage{mathptmx}
 %\usepackage{textcomp}
-
+ \usepackage{multirow}
 \usepackage{epsfig}
 \usepackage{subfigure}
 \usepackage{calc}
@@ -150,11 +150,11 @@ Finally, assuming the process model is indeed correct, we can try yo ensure its 
 \section{METHODOLOGY}\label{Methodology}
 
 
-\noindent To fulfill the purpose of this paper, we must define a series of steps that, with the assistance of an ontology, allows us check a process model pragmatic quality by verifying whether it follows Mendling's seven process modeling guidelines. However, before we can do this, there are a few questions we must answer. 
+\noindent To fulfill the purpose of this paper, we must define a series of steps that, with the assistance of an ontology, allows us check a process model's pragmatic quality by verifying whether it follows Mendling's seven process modeling guidelines. However, before we can do this, there are a few things we must define. 
 
-To start with, we must decide how are the process models going to be represented. A few different notations for process models exist and each notation has different ways of how the model is coded within a file. As can be implied from the previous section, the notation used in this work is BPMN 2.0. Models using this notation can usually be exported into the interchangeable format defined by OMG, which is simply a XML file with a specific schema and a .bpmn extension \cite{OMGObjectManagementGroup2015}. From this file, we can easily map elements from the model into the an ontology, via the \textit{BPMN Ontology}.
+To start with, we must decide how are the process models going to be represented. A few different notations for process models exist and each notation has different ways of how the model is coded within a file. As can be implied from the previous section, the notation used in this work is BPMN 2.0. Models using this notation can be exported into the interchangeable format defined by OMG, which is simply a XML file with a specific schema and a .bpmn extension \cite{OMGObjectManagementGroup2015}. From this file, we can easily map elements from the model into the an ontology, via the \textit{BPMN Ontology}.
 
-Secondly, we need to establish how we are going to check whether or not a guideline is being followed or not by a model. We must express them is such a way that they turn into a yes or no question. To do that, for each guideline must identify parameters that can measure and compare that model against what each guideline says is best. Based upon previous works \cite{Mendling2008}; \cite{recker2011evaluations}; \cite{Mendling:2012}, the table \ref{Metrics} presents the parameters utilized to check if the model violates each guideline.
+Secondly, we need to establish how we are going to check whether or not a guideline is being followed or not by a model. We must express them in such a way that they turn into a yes or no question. To do that, for each guideline must be related to a metric that can measure and compare a model against supposed optimal values. Based upon previous works \cite{Mendling2008} \cite{recker2011evaluations} \cite{Mendling:2012}, the table \ref{Metrics} presents the metrics and optimal values utilized to check if the model violates each guideline.
 
 \begin{table}[]
 	\centering
@@ -162,22 +162,24 @@ Secondly, we need to establish how we are going to check whether or not a guidel
 	\label{Metrics}
 	\begin{tabular}{|c|c|}
 		\hline
-		7PMG & Parameters \\ \hline
+		7PMG & Metrics and Comparisons \\ \hline
 		G1 & Number of Elements $>$ 30 \\ \hline
 		G2 & Highest Element Degree $>$ 7 \\ \hline
 		G3 & \begin{tabular}[c]{@{}c@{}}Number of StartEvents $>$ 1\\ Number of End Events $>$ 1\end{tabular} \\ \hline
 		G4 & Number of Splits $\neq$ Number of Joins \\ \hline
 		G5 & Number of OR Gateways $>$ 0 \\ \hline
 		G6 & Wordnet \\ \hline
-		G7 & Number of Elements $>$ 50 \\ \hline
+		G7 & Number of Elements $>$ 30 \\ \hline
 	\end{tabular}
 \end{table}
 
 With these parameters, two guidelines show problems: G1 and G6.
 
-G1, the guideline for encouraging the use of less elements when modeling, becomes redundant with G7, which determines when a model should be decomposed. This happens because G1 is much more suited to be used when a model is being developed, when one can refrain from introducing a few elements instead of when the modeling is finished and the choice becomes of how the model can be decomposed. As a result, the parameters for both guidelines are very similar, requiring us to choose the more appropriate one for testing. In this case, since we are working with a model and not with modeling, the guideline G7 is more appropriate.
+%G1, the guideline for encouraging the use of less elements when modeling, becomes redundant with G7, which determines when a model should be decomposed. This happens because G1 is much more suited to be used when a model is being developed, when one can refrain from introducing a few elements instead of when the modeling is finished and the choice becomes of how the model can be decomposed. As a result, the metric measured for both guidelines is the same, requiring us to choose the more appropriate one for testing. In this case, since we are working with a model and not with modeling, the guideline G7 is more appropriate.
 
-G6, which tells us to label activities in the verb-object style, is the second problematic guideline. In this case, the problem is the complexity of checking the language of each label. It exceeds the scope of this work, since it requires the use of Natural Language Processing to identify the words of each label and compare them and their use against a thesaurus to define context \cite{gassen2014business}. Therefore, we are ignoring this guideline.
+G1, the guideline for encouraging the use of less elements when modeling, becomes redundant with G7, which determines when a model should be decomposed. This happens because the metric used for G1 is the same as the one used for G7. Because of this, we need to choose which guideline is more appropriate for our method. Since G1 is more suited to be used when a model is being developed and the modeler can refrain from introducing a few elements, instead of when the modeling is finished, the guideline G7 is more appropriate.
+
+G6, which tells us to label activities in the verb-object style, is the second problematic guideline. In this case, the problem is in the complexity of checking the language of each label. This exceeds the scope of this work, since it requires the use of Natural Language Processing to identify the words of each label and compare them and their use against a thesaurus to define the label's context \cite{gassen2014business}. Therefore, we are ignoring this guideline.
 
 \begin{table*}[]
 	\caption{BPMN $\Rightarrow$ Ontology Mapping}
@@ -207,7 +209,7 @@ Once that is done, we can begin extracting the individual elements from the BPMN
 
 After this is completed, we can finally have the ontology assist us in checking the process model syntax.  Using \textit{Protégé} inference engine, we can verify the ontology's integrity. If this is successful, it can be assumed that the structure of the BPMN model mapped into Protégé is syntactically correct, since any syntactical error in the process model's structure would violate the ontology's integrity according to the BPMN Ontology.
 
-The final steps of this method are checking the process model according Medling's guidelines and recommending alterations based upon the results. We developed another Java Plugin that checks the process model's parameters and, for each violated guideline, the plugin recommends actions according to the table \ref{RecommendedActions}.
+The final steps of this method are checking the process model according Mendling's guidelines and recommending alterations based upon the results. We developed another Java Plugin that checks the process model's metrics and, for each violated guideline, the plugin recommends actions according to the table \ref{RecommendedActions}.
 
 \begin{table}[]
 	\centering
@@ -244,7 +246,51 @@ The entire series of steps is as follow:
 
 \noindent To validate our method, we applied it to a collection of 31 BPMN models. These are models of the the processes of a university, created by students of BPM, verified and corrected by their professor and semantically validated by each model's stakeholders. 
 
+For each guideline used in our method, we extracted the related metrics for analysis via statistics. The tables \ref{MetricsExtracted} and \ref{MetricsGateways} show this. We can then use these statistics to predict whether most of the models of this collection follow or not the process modeling guidelines. 
+
+\begin{table*}[]
+	\centering
+	\caption{Statistics for metrics related to the guidelines G2, G3, G5, G7}
+	\label{MetricsExtracted}
+	\begin{tabular}{|c|c|c|c|c|c|}
+		\hline
+		& \begin{tabular}[c]{@{}c@{}}Highest \\ Connectivity Degree\end{tabular} & Nº Start Events & Nº End Events & Nº OR Gateways & Nº Elements \\ \hline
+		Average & & 2.20513 & 2.25641 &  0.28125 & 24.79487 \\ \hline
+		Std. Deviation & & 2.00236 & 1.96974 &  0.85135 & 17.71288 \\ \hline
+		Minimum & & 1 & 1 &  0 & 6 \\ \hline
+		Maximun & & 13 & 13 &  4 & 98 \\ \hline
+		Median & & 2 & 2 &  0 & 21 \\ \hline
+	\end{tabular}
+\end{table*}
+
 \begin{table}[]
+	\centering
+	\caption{Statistics for metrics related to the guideline G4}
+	\label{MetricsGateways}
+	\begin{tabular}{|c|c|c|c|}
+		\hline
+		\multirow{2}{*}{}  & \multicolumn{3}{c|}{Splits - Joins Difference} \\ \cline{2-4} 
+		& AND            & XOR           & OR            \\ \hline
+		Average            & 0.125          & 0.53125       & -0.09375      \\ \hline
+		Std. Deviation & 0.33601   & 1.39085   & 0.39016   \\ \hline
+		Minimum            & 0              & -2            & -2            \\ \hline
+		Maximun            & 1              & 4             & 0             \\ \hline
+		Median             & 0              & 0.5           & 0             \\ \hline
+	\end{tabular}
+\end{table}
+
+%TODO G2
+For example, in the statistics for Highest Connectivity degree, for guideline G2, we see... G5 is similar, since the average number of OR gateways is low, but not zero, and the standard deviation is almost 1, implying that a few models do use OR gateways, up to the maximum of 4. Because of this, we expect that a few process models do violate this guideline, and our method will show this.
+
+For G3, on the other hand, the number of start and end events has the high average of more than 2 , compared to the recommended use of 1 event of each. This would imply that most process models from the collection do not follow G3. 
+
+Analysis for guideline G4 is more complicated, since we measure the difference between the two metrics related to it. Not only that, we also have to measure this difference for each different type of gateway. We can, however, clearly see the imbalance of the number of XOR splits versus the number of XOR joins by looking at the average of that metric. That information, together with the high standard deviation show for each gateway, indicates that most process models in the collection are not structured.
+
+The statistics for G7 are slightly vague. The high, but not unreasonable, average for the measure of the number of elements suggest that the guideline is followed. Yet, the high standard deviation hints that at least some models do have more than 30 elements.
+
+With all this information in mind, our expectations are that most process models violate guidelines G3 and G4, while following guidelines G2 and G5. Lastly, guideline G7 will a have a few violations, but not enough to stand out.
+
+\begin{table}[h]
 	\centering
 	\caption{Number of violations Per guideline}
 	\label{ViolationsPerGuideline}
@@ -253,14 +299,19 @@ The entire series of steps is as follow:
 		& Total Violations & Percent of Total \\ \hline
 		G2 & 2 & 6.45\% \\ \hline
 		G3 & 1 & 3.23\% \\ \hline
-		G4 & 10 & 32.26\% \\ \hline
+		G4 & 10 & 32.26\% \\ \hline %TOREDO. I know it's 21-22
 		G5 & 4 & 12.90\% \\ \hline
 		G7 & 8 & 25.81\% \\ \hline
 	\end{tabular}
 \end{table}
 
+Let's compare these conclusions with the results of our applied method, as show in table \ref{ViolationsPerGuideline}. According to it, our expectations for guidelines G2, G4, G5 and G7 do match the results. The results for guideline G3, though, is completely unexpected. 
 
-\begin{table}[]
+Upon further analysis, we found a reason for this. Many process models of the collection have multiple pools or subprocesses, which, according to the notation, require new start and end events, causing a distortion in the number of events that a process model has. Therefore, we must take said distortion into account for our statistical analysis. Nevertheless, our plugin that verifies process models is doing this correctly.
+
+
+
+\begin{table}[h]
 	\centering
 	\caption{Number of models per quantity of violations}
 	\label{ModelsPerQuantityOfViolation}

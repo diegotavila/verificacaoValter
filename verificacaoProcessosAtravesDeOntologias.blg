@@ -11,17 +11,33 @@ White space in argument---line 6 of file verificacaoProcessosAtravesDeOntologias
  : \citation{What
  :                we can learn from Quality Issues of BPMN Models from Industry}
 I'm skipping whatever remains of this command
+White space in argument---line 18 of file verificacaoProcessosAtravesDeOntologias.aux
+ : \citation{Quality
+ :                   metrics for business process models}
+I'm skipping whatever remains of this command
+White space in argument---line 20 of file verificacaoProcessosAtravesDeOntologias.aux
+ : \citation{Complexity
+ :                      metrics for business process models}
+I'm skipping whatever remains of this command
+White space in argument---line 21 of file verificacaoProcessosAtravesDeOntologias.aux
+ : \citation{Process
+ :                   control-flow complexity metric: An empirical validation}
+I'm skipping whatever remains of this command
+White space in argument---line 22 of file verificacaoProcessosAtravesDeOntologias.aux
+ : \citation{Prediction
+ :                      of business process model quality based on structural metrics}
+I'm skipping whatever remains of this command
 The style file: apalike.bst
 Database file #1: ArtigoVerificacao.bib
 Warning--I didn't find a database entry for "aalst:2013"
 Warning--I didn't find a database entry for "7PMG"
 Warning--I didn't find a database entry for "Allweyer2010"
 Warning--I didn't find a database entry for "Reijers2015"
-Warning--I didn't find a database entry for "?"
+Warning--I didn't find a database entry for "MetricsForProcessModels"
 Warning--I didn't find a database entry for "recker2011evaluations"
 Warning--I didn't find a database entry for "Mendling:2012"
 Warning--I didn't find a database entry for "gassen2014business"
 Warning--empty journal in Moreno-MontesdeOca2014
 Warning--empty publisher in Silver2009
 Warning--empty publisher in White2008
-(There were 3 error messages)
+(There were 7 error messages)
