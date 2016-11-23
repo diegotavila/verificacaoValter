@@ -1,19 +1,46 @@
 \begin{thebibliography}{}
 
+\bibitem[Allweyer and Allweyer, 2010]{Allweyer2010}
+Allweyer, T. and Allweyer, D. (2010).
+\newblock {\em {BPMN 2.0 : introduction to the standard for business process
+  modeling}}.
+\newblock Books on Demand GmbH.
+
 \bibitem[Becker et~al., 2000]{Becker2000}
 Becker, J., Rosemann, M., von Uthmann, C., and Uthmann, C.~V. (2000).
 \newblock {Guidelines of Business Process Modeling}.
 \newblock {\em Business Process Management}, 1806:241--262.
+
+\bibitem[Cardoso, 2006]{Cardoso2006a}
+Cardoso, J. (2006).
+\newblock {Process control-flow complexity metric: An empirical validation}.
+\newblock {\em Services Computing, 2006. SCC'06. IEEE International {\ldots}}.
 
 \bibitem[Correia and Abreu, 2012]{Correia2012}
 Correia, A. and Abreu, F. B.~e. (2012).
 \newblock {Adding Preciseness to BPMN Models}.
 \newblock {\em Procedia Technology}, 5:407--417.
 
-\bibitem[Mendling, 2008]{Mendling2008}
-Mendling, J. (2008).
+\bibitem[Gruhn and Laue, 2006]{Gruhn2006}
+Gruhn, V. and Laue, R. (2006).
+\newblock {Complexity metrics for business process models}.
+\newblock {\em 9th international conference on business information {\ldots}}.
+
+\bibitem[Leopold et~al., 2016]{Leopold2016}
+Leopold, H., Mendling, J., and Gunther, O. (2016).
+\newblock {Learning from Quality Issues of BPMN Models from Industry}.
+\newblock {\em IEEE Software}, 33(4):26--33.
+
+\bibitem[Mendling, 2008a]{Mendling2008}
+Mendling, J. (2008a).
 \newblock {Metrics for Process Models}.
 \newblock {\em Metrics for Process Models}, 6(0):103--133.
+
+\bibitem[Mendling, 2008b]{Mendling2008b}
+Mendling, J. (2008b).
+\newblock {\em {Metrics for Process Models}}, volume~6 of {\em Lecture Notes in
+  Business Information Processing}.
+\newblock Springer Berlin Heidelberg, Berlin, Heidelberg.
 
 \bibitem[Mendling et~al., 2007]{Mendling2007}
 Mendling, J., Neumann, G., and Aalst, W. M. P. V.~D. (2007).
@@ -26,6 +53,20 @@ Mendling, J., Reijers, H.~A., and van~der Aalst, W. M.~P. (2010).
 \newblock {Seven process modeling guidelines (7PMG)}.
 \newblock {\em Information and Software Technology}, 52(2):127--136.
 
+\bibitem[Mendling et~al., 2012]{Mendling:2012}
+Mendling, J., S{\'{a}}nchez-Gonz{\'{a}}lez, L., Garc{\'{i}}a, F., and {La
+  Rosa}, M. (2012).
+\newblock {Thresholds for error probability measures of business process
+  models}.
+\newblock {\em Journal of Systems and Software}, 85(5):1188--1197.
+
+\bibitem[Mendling et~al., 2008]{Mendling2008a}
+Mendling, J., Verbeek, H., van Dongen, B., van~der Aalst, W., and Neumann, G.
+  (2008).
+\newblock {Detection and prediction of errors in EPCs of the SAP reference
+  model}.
+\newblock {\em Data {\&} Knowledge Engineering}, 64(1):312--329.
+
 \bibitem[{Moreno-Montes de Oca} and Snoeck, 2014]{Moreno-MontesdeOca2014}
 {Moreno-Montes de Oca}, I. and Snoeck, M. (2014).
 \newblock {Pragmatic guidelines for Business Process Modeling}.
@@ -35,6 +76,18 @@ Mendling, J., Reijers, H.~A., and van~der Aalst, W. M.~P. (2010).
 {OMG ( Object Management Group)} (2015).
 \newblock {BPMN Specification - Business Process Model and Notation}.
 
+\bibitem[Recker, 2011]{Recker2011}
+Recker, J. (2011).
+\newblock {\em {Evaluations of process modeling grammars : ontological,
+  qualitative and quantitative analyses using the example of BPMN}}.
+\newblock Springer.
+
+\bibitem[Reijers et~al., 2015]{Reijers2015}
+Reijers, H.~A., Mendling, J., and Recker, J. (2015).
+\newblock {Business Process Quality Management}.
+\newblock In {\em Handbook on Business Process Management 1}, pages 167--185.
+  Springer Berlin Heidelberg, Berlin, Heidelberg.
+
 \bibitem[Rospocher et~al., 2014]{Rospocher2014foisbpmn}
 Rospocher, M., Ghidini, C., and Serafini, L. (2014).
 \newblock {An ontology for the Business Process Modelling Notation}.
@@ -42,6 +95,12 @@ Rospocher, M., Ghidini, C., and Serafini, L. (2014).
   Information Systems - Proceedings of the Eighth International Conference,
   FOIS2014, September, 22-25, 2014, Rio de Janeiro, Brazil}, volume 267, pages
   133--146. IOS Press.
+
+\bibitem[S{\'{a}}nchez-Gonz{\'{a}}lez et~al., 2008]{Sanchez-Gonzalez2008}
+S{\'{a}}nchez-Gonz{\'{a}}lez, L., Garc{\'{i}}a, F., Mendling, J., Ruiz, F., and
+  Piattini, M. (2008).
+\newblock {\em {Prediction of Business Process Model Quality Based on
+  Structural Metrics}}.
 
 \bibitem[Silver, 2009]{Silver2009}
 Silver, B. (2009).
@@ -55,6 +114,17 @@ Snoeck, M., {Moreno-Montes de Oca}, I., Haegemans, T., Scheldeman, B., and
   guidelines}.
 \newblock In {\em Lecture Notes in Business Information Processing}, volume
   235, pages 111--125.
+
+\bibitem[van~der Aalst, 2013]{aalst:2013}
+van~der Aalst, W. M.~P. (2013).
+\newblock {Business Process Management: A Comprehensive Survey}.
+\newblock {\em ISRN Software Engineering}, 2013:1--37.
+
+\bibitem[Vanderfeesten et~al., 2007]{Vanderfeesten2007}
+Vanderfeesten, I., Cardoso, J., Mendling, J., Reijers, H.~A., and van~der
+  Aalst, W. (2007).
+\newblock {Quality metrics for business process models}.
+\newblock {\em BPM and Workflow {\ldots}}, pages 1--12.
 
 \bibitem[Vanderfeesten et~al., 2008]{Vanderfeesten2008}
 Vanderfeesten, I., Reijers, H.~A., Mendling, J., {Van Der Aalst}, W. M.~P., and

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.8.31)  21 NOV 2016 16:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.8.31)  23 NOV 2016 14:14
 entering extended mode
 **./verificacaoProcessosAtravesDeOntologias.tex
 (verificacaoProcessosAtravesDeOntologias.tex
@@ -730,58 +730,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 44--44
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <13> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 46.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 50.
-
-LaTeX Warning: Citation `aalst:2013' on page 1 undefined on input line 50.
-
-
-LaTeX Warning: Citation `Detection and Prediction of Errors in EPCs of the SAP 
-Reference Model.' on page 1 undefined on input line 53.
-
-
-LaTeX Warning: Citation `What we can learn from Quality Issues of BPMN Models f
-rom Industry' on page 1 undefined on input line 53.
-
-
-LaTeX Warning: Citation `7PMG' on page 1 undefined on input line 61.
-
-
-LaTeX Warning: Citation `What we can learn from Quality Issues of BPMN Models f
-rom Industry' on page 1 undefined on input line 61.
-
-
-LaTeX Warning: Citation `Allweyer2010' on page 1 undefined on input line 67.
-
-
-LaTeX Warning: Citation `Reijers2015' on page 1 undefined on input line 70.
-
 [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
 
 
 ]
-
-LaTeX Warning: Citation `Quality metrics for business process models' on page 2
- undefined on input line 93.
-
-
-LaTeX Warning: Citation `MetricsForProcessModels' on page 2 undefined on input 
-line 93.
-
-
-LaTeX Warning: Citation `Complexity metrics for business process models' on pag
-e 2 undefined on input line 93.
-
-
-LaTeX Warning: Citation `Process control-flow complexity metric: An empirical v
-alidation' on page 2 undefined on input line 93.
-
-
-LaTeX Warning: Citation `Prediction of business process model quality based on 
-structural metrics' on page 2 undefined on input line 93.
-
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 99.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 99.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
@@ -796,70 +752,79 @@ LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
 
 [2]
 
-LaTeX Warning: Citation `recker2011evaluations' on page 3 undefined on input li
-ne 157.
-
-
-LaTeX Warning: Citation `Mendling:2012' on page 3 undefined on input line 157.
-
-
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 159.
 
 
-LaTeX Warning: Citation `gassen2014business' on page 3 undefined on input line 
-182.
-
-
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 184.
+               Default added (so using `tbp') on input line 176.
+
+[3]
+
+LaTeX Warning: Citation `gassen2014business' on page 4 undefined on input line 
+198.
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 203.
-
-Underfull \vbox (badness 1242) has occurred while \output is active []
-
- [3]
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 204.
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 214.
+               Default added (so using `tbp') on input line 215.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 251.
+               Default added (so using `tbp') on input line 244.
 
 
-Overfull \hbox (5.68538pt too wide) in paragraph at lines 255--264
+Overfull \hbox (5.68538pt too wide) in paragraph at lines 248--257
  [][] 
  []
 
+[4]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 266.
+               Default added (so using `tbp') on input line 267.
 
-[4] (verificacaoProcessosAtravesDeOntologias.bbl [5]) [6
 
-]
-(verificacaoProcessosAtravesDeOntologias.aux) ) 
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 294.
+
+[5]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 323.
+
+(verificacaoProcessosAtravesDeOntologias.bbl
+Underfull \hbox (badness 1540) in paragraph at lines 86--90
+\OT1/ptm/m/n/10 Busi-ness Pro-cess Qual-ity Man-age-ment.  In
+ []
+
+
+Underfull \hbox (badness 1147) in paragraph at lines 86--90
+\OT1/ptm/m/it/10 Hand-book on Busi-ness Pro-cess Man-age-ment
+ []
+
+[6]) [7
+
+] (verificacaoProcessosAtravesDeOntologias.aux) ) 
 Here is how much of TeX's memory you used:
- 4570 strings out of 493334
- 65515 string characters out of 3136678
- 137653 words of memory out of 3000000
- 7990 multiletter control sequences out of 15000+200000
+ 4572 strings out of 493334
+ 65243 string characters out of 3136678
+ 135945 words of memory out of 3000000
+ 7992 multiletter control sequences out of 15000+200000
  54112 words of font info for 118 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,14n,40p,903b,275s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files (x86)/MiKTeX 2
-.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/typ
-e1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1
-/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pu
-blic/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/
-times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8
-a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on verificacaoProcessosAtravesDeOntologias.pdf (6 pages, 102196 
+{C:/Program Files (x86)/MiKTeX
+ 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/t
+ype1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/ur
+w/times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utm
+r8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on verificacaoProcessosAtravesDeOntologias.pdf (7 pages, 108732 
 bytes).
 PDF statistics:
- 46 PDF objects out of 1000 (max. 8388607)
+ 51 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
