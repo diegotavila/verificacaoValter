@@ -1,9 +1,13 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: verificacaoProcessosAtravesDeOntologias.aux
 The style file: apalike.bst
 Database file #1: ArtigoVerificacao.bib
-Warning--I didn't find a database entry for "gassen2014business"
+Repeated entry---line 122 of file ArtigoVerificacao.bib
+ : @book{Krogstie2012
+ :                   ,
+I'm skipping whatever remains of this entry
 Warning--empty journal in Moreno-MontesdeOca2014
 Warning--empty publisher in Sanchez-Gonzalez2008
+Warning--empty booktitle in Schuette1998
 Warning--empty publisher in Silver2009
 Warning--empty publisher in White2008
-(There were 5 warnings)
+(There was 1 error message)

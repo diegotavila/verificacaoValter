@@ -21,10 +21,22 @@ Correia, A. and Abreu, F. B.~e. (2012).
 \newblock {Adding Preciseness to BPMN Models}.
 \newblock {\em Procedia Technology}, 5:407--417.
 
+\bibitem[Gassen et~al., 2014]{Gassen2014}
+Gassen, J.~B., Mendling, J., Thom, L.~H., and de~Oliveira, J. P.~M. (2014).
+\newblock {Business process modeling}.
+\newblock In {\em Proceedings of the 32nd ACM International Conference on The
+  Design of Communication CD-ROM - SIGDOC '14}, pages 1--10, New York, New
+  York, USA. ACM Press.
+
 \bibitem[Gruhn and Laue, 2006]{Gruhn2006}
 Gruhn, V. and Laue, R. (2006).
 \newblock {Complexity metrics for business process models}.
 \newblock {\em 9th international conference on business information {\ldots}}.
+
+\bibitem[Krogstie, 2012]{krogstie2012}
+Krogstie, J. (2012).
+\newblock {\em {Model-Based Development and Evolution of Information Systems}}.
+\newblock Springer London, London.
 
 \bibitem[Leopold et~al., 2016]{Leopold2016}
 Leopold, H., Mendling, J., and Gunther, O. (2016).
@@ -101,6 +113,12 @@ S{\'{a}}nchez-Gonz{\'{a}}lez, L., Garc{\'{i}}a, F., Mendling, J., Ruiz, F., and
   Piattini, M. (2008).
 \newblock {\em {Prediction of Business Process Model Quality Based on
   Structural Metrics}}.
+
+\bibitem[Schuette and Rotthowe, 1998]{Schuette1998}
+Schuette, R. and Rotthowe, T. (1998).
+\newblock {The Guidelines of Modeling – An Approach to Enhance the Quality in
+  Information Models}.
+\newblock pages 240--254. Springer Berlin Heidelberg.
 
 \bibitem[Silver, 2009]{Silver2009}
 Silver, B. (2009).
