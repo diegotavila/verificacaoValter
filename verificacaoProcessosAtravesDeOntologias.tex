@@ -98,17 +98,17 @@ Some of the existing BPMN tools try to provide some support for creating good pr
 
 %Modeling %BPMN %Problems
 %IMPROVE? Should I insert BPMN element types?
-\noindent The modeling task of BPM is often done using the Business Process Model and Notation (BPMN). BPMN was developed by the Object Management Group (OMG), with the purpose of consolidating the many existing notations for process models in a single standard. This standard should provide a easy to comprehend notation to all stakeholders \cite{OMGObjectManagementGroup2015}. However, BPMN does not teach modelers how to use it's elements in the creation of simple and expressive process models. The consequence of this is that it's hard to achieve a a good level of quality in BPMN process models.
+\noindent The modeling task of BPM is often done using the Business Process Model and Notation (BPMN). BPMN was developed by the Object Management Group (OMG), with the purpose of consolidating the many existing notations for process models in a single standard. This standard should provide a easy to comprehend notation to all stakeholders \cite{OMGObjectManagementGroup2015}. However, BPMN does not teach modelers how to use it's elements in the creation of simple and expressive process models. The consequence of this is that it's hard to achieve a good level of quality in BPMN process models.
 
 
 %Qualities
 %REFERENCES
-This difficulty motivated the creation of many frameworks that try to define what a process model quality is and classify the different quality types that compose it. Examples of these are the SEQUAL Framework \cite{krogstie2012}, the Guidelines of Modeling (GoM) \cite{Schuette1998} and, more recently, the SIQ framework, in which we base this work upon. The SIQ framework defines process model quality as factor of three basic quality types:
+This difficulty motivated the creation of many frameworks that try to define what a process model quality is and classify the different quality types that compose it. Examples of these are the SEQUAL Framework \cite{krogstie2012}, the Guidelines of Modeling (GoM) \cite{Schuette1998} and, more recently, the SIQ framework \cite{Reijers2015}), in which we base this work upon. The SIQ framework defines process model quality as made of three basic quality types:
 
 %REFERENCE OF SOUND
 \begin{itemize}
-	\item \textbf{Syntactic Quality} identifies if a process model conforms to the rules defined by the notation used to create it. In other words, if a process model follows the syntax and the vocabulary of its modeling language, we can verify that process model and declare it correct. To do so, the verification must check the static proprieties of a process model - how different types of elements are used and combined - and its behavioral proprieties - the process modeled should not reach a deadlock and must be completed properly, i.e the process model is \textit{sound}.
-	\item \textbf{Semantic Quality} bears the connection between a process model and the real world process it's supposed to represent. Checking a process model's semantic quality is, basically, making sure it is valid - all elements of the process model correctly represent the real world - and complete - there are no real world process parts that are missing in the process model. This check is simply called validation and, if it passes, the process model is determined true.
+	\item \textbf{Syntactic Quality} identifies if a process model conforms to the rules defined by the notation used to create it. In other words, if a process model follows the syntax and the vocabulary of its modeling language, then it is possible to verify that process model and declare it to be correct. To do so, the verification must check the static proprieties of a process model - how different types of elements are used and combined - and its behavioral proprieties - the process modeled should not reach a deadlock and must be completed properly, i.e the process model is \textit{sound}.
+	\item \textbf{Semantic Quality} bears the connection between a process model and the real world process it's supposed to represent. Checking a process model's semantic quality is, basically, making sure it is valid - all elements of the process model correctly represent the real world - and complete - there are no real world process parts that are missing in the process model. This check is simply called validation and, if it passes, the process model is determined to be true.
 	\item \textbf{Pragmatic Quality} characterizes the comprehensibility of a process model. It is the certification that a user's interpretation of a process model is equal to the actual, real world process. If done so, the process model is said to be understood.
 \end{itemize}
 
@@ -125,7 +125,7 @@ Syntactic quality is the basis for the other two qualities. As mentioned before,
 
 %TODO - Mention OWL?
 %BPMN Ontology
-As previously explained, it's possible to do this verification using an ontology. More specifically, we can use an ontology design to serve as a meta-model for a process modeling notation. In the case of BPMN, there exists what is called the \textit{BPMN Ontology} \cite{Rospocher2014foisbpmn}, which supports the mapping of a BPMN process model into elements of the ontology, while preserving the relations and strutures between the process model elements. Then, we can use an inference engine to verify the mapped process model, which will check if the static propreties of BPMN model, , i.e its structure, is correct according to the BPMN syntax.
+As previously explained, it's possible to do this verification using an ontology. More specifically, we can use an ontology design to serve as a meta-model for a process modeling notation. In the case of BPMN, there exists what is called the \textit{BPMN Ontology} \cite{Rospocher2014foisbpmn}, which supports the mapping of a BPMN process model into elements of the ontology, while preserving the relations and strutures between the process model elements. That way, we can use an inference engine to verify the mapped process model, which will check if the static propreties of BPMN model, i.e its structure, is correct according to the BPMN syntax.
 
 
 %To verify these guidelines, we need to transform the model from the BPMN standard into a more formal one, which in this case is an ontology, because, in computer science, the most common definition of an ontology is an explicit and formal specification of a shared conceptualization \cite{borst1997ontology, Gruber1995907, Studer1998161}. The transformation between BPMN and an ontology is done through the use of the already existing \textit{BPMN Ontology} \cite{Rospocher2014foisbpmn}. This allows us to verify the process model, or more precisely its structure, through the use of an ontological reasoner. 
@@ -133,7 +133,7 @@ As previously explained, it's possible to do this verification using an ontology
 
 %Guidelines
 %7PMG
-Finally, assuming the process model is indeed correct, we can try yo ensure its pragmatic quality, which, in this case, is done by checking via the use of process modeling guidelines.  In \cite{Mendling2010}, seven process modeling guidelines (7PMG) have been proposed that are "thought to be helpful in guiding users towards improving the quality of their models, in the sense that these are likely (1) to become comprehensible to various stakeholders and (2) to contain few syntactical errors". These guidelines have been built upon empirical insights and, as such, provide a short but meaningful set of rules. They are as follows:
+Finally, assuming the process model is indeed correct, we can try to ensure its pragmatic quality, which, in this case, is done by checking via the use of process modeling guidelines.  In \cite{Mendling2010}, seven process modeling guidelines (7PMG) have been proposed that are "thought to be helpful in guiding users towards improving the quality of their models, in the sense that these are likely (1) to become comprehensible to various stakeholders and (2) to contain few syntactical errors". These guidelines have been built upon empirical insights and, as such, provide a short but meaningful set of rules. They are as follows:
 \begin{enumerate}
 	\item[G1] Use as few elements in the model as possible.
 	\item[G2] Minimize the routing paths per element.
@@ -145,7 +145,7 @@ Finally, assuming the process model is indeed correct, we can try yo ensure its 
 \end{enumerate}
 
 %SWTICH NAME
-\section{METHODOLOGY}\label{Methodology}
+\section{A METHOD FOR VERIFYING PROCESS MODELS BASED ON PROCESS MODELING GUIDELINES}\label{Methodology}
 \begin{table}[]
 	\centering
 	\caption{Parameters tested for each guideline from 7PMG}
@@ -179,43 +179,33 @@ Finally, assuming the process model is indeed correct, we can try yo ensure its 
 	\end{tabular} 
 \end{table*}
 
-\noindent To fulfill the purpose of this paper, we must define a series of steps that, with the assistance of an ontology, allows us check a process model's pragmatic quality by verifying whether it follows Mendling's seven process modeling guidelines. However, before we can do this, there are a few things we must define. 
+\noindent To fulfill the purpose of this paper, we must specify a series of steps that, with the assistance of an ontology, allows us check a process model's pragmatic quality by verifying whether it follows Mendling's seven process modeling guidelines. However, before we can do this, there are a few things we must define. 
 
 To start with, we must decide how are the process models going to be represented. A few different notations for process models exist and each notation has different ways of how the process model is coded within a file. As can be implied from the previous section, the notation used in this work is BPMN 2.0. Models using this notation can be exported into the interchangeable format defined by OMG, which is simply a XML file with a specific schema and a .bpmn extension \cite{OMGObjectManagementGroup2015}. From this file, we can easily map elements from the process model into the an ontology, via the \textit{BPMN Ontology}.
 
-Secondly, we need to establish how we are going to check whether or not a guideline is being followed or not by a process model. We must express them in such a way that they turn into a yes or no question. To do that,  each guideline must be related to a process model metric that can be measured and compared against supposed optimal values. Based upon previous works \cite{Mendling2008} \cite{Recker2011} \cite{Mendling:2012}, the table \ref{Metrics} presents the metrics and optimal values utilized to check if the process model violates each guideline.
-
-
-
-With these parameters, two guidelines show problems: G1 and G6.
+Secondly, we need to establish how we are going to check whether or not a guideline is being followed by a process model. We must express them in such a way that they turn into a binary, yes or no question. To do that, each guideline must be associated to a process model metric that can be measured and compared against supposed optimal values. Based upon previous works \cite{Mendling2008} \cite{Recker2011} \cite{Mendling:2012}, the table \ref{Metrics} presents the metrics and optimal values we considered to check if the process model violates each guideline. Based on these, two guidelines show problems: G1 and G6.
 
 %G1, the guideline for encouraging the use of less elements when modeling, becomes redundant with G7, which determines when a model should be decomposed. This happens because G1 is much more suited to be used when a model is being developed, when one can refrain from introducing a few elements instead of when the modeling is finished and the choice becomes of how the model can be decomposed. As a result, the metric measured for both guidelines is the same, requiring us to choose the more appropriate one for testing. In this case, since we are working with a model and not with modeling, the guideline G7 is more appropriate.
 
 G1, the guideline for encouraging the use of less elements when modeling, becomes redundant with G7, which determines when a process model should be decomposed. This happens because the metric used for G1 is the same as the one used for G7. Because of this, we need to choose which guideline is more appropriate for our method. Since G1 is more suited to be used when a process model is being developed and the modeler can refrain from introducing a few elements, instead of when the modeling is finished, the guideline G7 is more appropriate.
 
-G6, which tells us to label activities in the verb-object style, is the second problematic guideline. In this case, the problem is in the complexity of checking the language of each label. This exceeds the scope of this work, since it requires the use of Natural Language Processing to identify the words of each label and compare them and their use against a thesaurus to define the label's context \cite{Gassen2014}. Therefore, we are ignoring this guideline.
+G6, which tells us to label activities in the verb-object style, presents a problem in the complexity of checking the language of each label. This exceeds the scope of this work, since it requires the use of Natural Language Processing to identify the words of each label and compare them and their use against a thesaurus to define the label's context \cite{Gassen2014}. Therefore, we are ignoring this guideline.
 
 
 
-Finally, we must determine how are we going to load and edit an ontology. We chose to use the ontology editor \textit{Protégé} \footnote{http://protege.stanford.edu/}. \textit{Protégé} not only can verify the integrity of ontologies using an inference engine, it is also easily extensible through the use of plugins. %Both features will be helpful in our method.
+Finally, we must determine how are we going to load and edit an ontology. We chose to use the ontology editor \textit{Protégé} \footnote{http://protege.stanford.edu/}. \textit{Protégé} not only can verify the integrity of ontologies using an inference engine, it is also easily extensible through the use of plugins. The majority of our method was built using this extensibility. %Both features will be helpful in our method. 
 
-\subsection{Verifying Process Models Based on Process Modeling Guidelines}
-\noindent Given the decisions made in this previous section, we can define a method to verify the process models. Our objective is to map and load BPMN models into an ontology using \textit{Protégé} and then checking those process models using Mendling's guidelines.
+\noindent Having made these decisions, we specified a method to verify process models based on the seven process modeling guidelines. To do so, this method verify a process model syntax using an ontology and its inference engine and then check the process model using the guidelines.
 
-The first step is simply to prepare \textit{Protégé} for instantiating BPMN models. To do this, we load BPMN ontology into the editor, so that it will support the mapping of elements from BPMN to the ontology by serving as the meta-model containing the structuring rules of BPMN.
+The first step of the method is simply to prepare \textit{Protégé} for instantiating BPMN models. To do this, the BPMN ontology is loaded into the editor, so that it will support the mapping of elements from BPMN to the ontology by serving as the meta-model containing the structuring rules of BPMN.
 
-Once that is done, we can begin extracting the individual elements from the BPMN models and instantiating each of them into the ontology. We developed a Java plugin for \textit{Protégé} which reads the .bpmn file of the process models and extracts its tasks, gateways, sequence flows and messages. After that, this same plugin uses the OWL-API to create individuals for each element, mapping and instantiating them according to each type described by the BPMN Ontology. The table \ref{bpmnOntologyMapping} shows how the mapping is done.
+Following this, the individual elements from the BPMN models can be extracted and instantiated into the ontology. We have developed a Java plugin for \textit{Protégé} which reads the .bpmn file of the process models and extracts its tasks, gateways, sequence flows and messages. After that, this same plugin uses the OWL-API to create individuals for each element, mapping and instantiating them according to each type described by the BPMN Ontology. The table \ref{bpmnOntologyMapping} shows how the mapping is done.
 
 \begin{figure*}
 	\includegraphics[width=\textwidth ]{method.png}
 	\caption{Steps to verify process models based on process modeling guidelines}
 	\label{methodFigure}
 \end{figure*}
-
-
-After this is completed, we can finally have the ontology assist us in checking the process model syntax.  Using \textit{Protégé} inference engine, we can verify the ontology's integrity. If this is successful, it can be assumed that the structure of the BPMN model mapped into Protégé is syntactically correct, since any syntactical error in the process model's structure would violate the ontology's integrity according to the BPMN Ontology.
-
-The final steps of this method are checking the process model according Mendling's guidelines and recommending alterations based upon the results. We developed another Java Plugin that checks the process model's metrics and, for each violated guideline, the plugin recommends actions according to the table \ref{RecommendedActions}.
 
 \begin{table}[]
 	\centering
@@ -231,6 +221,12 @@ The final steps of this method are checking the process model according Mendling
 		G7 & Decompose the process model \\ \hline
 	\end{tabular}
 \end{table}
+
+Once the entire process model has been instantiated into the ontology, it can assist us in verifying if the process model is syntactically correct.  Using \textit{Protégé} inference engine, we can verify the ontology's integrity and, if this is successful, it can be assumed that the structure of the BPMN model mapped into Protégé is syntactically correct, since any syntactical error in the process model's structure would violate the ontology's integrity according to the BPMN Ontology.
+
+The final steps of this method are checking the process model according Mendling's guidelines and recommending alterations based upon the results. We developed another Java Plugin that checks the process model's metrics and, for each violated guideline, the plugin recommends actions according to the table \ref{RecommendedActions}.
+
+
 
 The entire series of steps is as follow (also show in figure \ref{methodFigure}):
 
@@ -263,9 +259,9 @@ The entire series of steps is as follow (also show in figure \ref{methodFigure})
 
 \section{CASE STUDY AND RESULTS}\label{CaseStudy}
 
-\noindent To validate our method, we applied it to a collection of 31 BPMN models. These are models of the the processes of a university, created by students of BPM, verified and corrected by their professor and semantically validated by each process stakeholders. 
+\noindent To validate our method, we applied it to a collection of 31 BPMN models. These are models of the processes of a university, created by students of BPM, verified and corrected by their professor and semantically validated by each process stakeholders. 
 
-For each guideline used in our method, we extracted the related metrics for statistical analysis (as seen in tables \ref{MetricsExtracted} and \ref{MetricsGateways}). We can use these statistics to predict whether most of the process models of this collection follow or not the process modeling guidelines. 
+For each guideline used in our method, we extracted the associated metrics for a statistical analysis (as seen in tables \ref{MetricsExtracted} and \ref{MetricsGateways}). Based on these statistics, we have tried to predict whether most of the process models of this collection follow or not the process modeling guidelines. 
 
 
 
@@ -286,7 +282,7 @@ For each guideline used in our method, we extracted the related metrics for stat
 \end{table}
 
 %TODO G2
-For example, in the statistics for Highest Connectivity degree, for guideline G2, we see an average of NUM for the highest degree of connectivity. If we sum this average with the standard deviation, we can see that it's very unlikely that a random process model picked from our collection will have more than the recommended threshold for this guideline, which is five. Consequently, we can anticipate that the high majority of process models of our collection will follow the guideline. G5 is similar, since the average number of OR gateways is low, but not zero, and the standard deviation is almost 1, implying that a few process models do use OR gateways, up to the maximum of 4. Because of this, we suppose that a few process models do violate this guideline, and our method will show this.
+For example, in the statistics for highest connectivity degree, associated with guideline G2, we see an average of NUM. If we sum this average with the standard deviation, we can see that it's unlikely, assuming a normal distribution, that a random process model picked from our collection will have more than the recommended threshold for this guideline, which is five. Consequently, we can anticipate that the high majority of process models from the collection will follow the guideline. G5 is similar, since the average number of OR gateways is low, but not zero, and the standard deviation is almost 1, implying that a few process models do use OR gateways, up to the maximum of 4. Because of this, we suppose that a few process models do violate this guideline, and our method will show this.
 
 For G3, on the other hand, we see the opposite, as the number of both start and end events has the high average (more than 2), compared to the recommended use of 1 event of each. This would imply that most process models from the collection have multiple start and end event, ergo, they do not follow G3. 
 
@@ -312,7 +308,7 @@ With all this information in mind, our expectations are that most process models
 \end{table}
 
 %REWRITE?
-Let's compare these conclusions with the results of our applied method, as show in table \ref{ViolationsPerGuideline}. According to it, our expectations for guidelines G2, G4, G5 and G7 do match the results. The results for guideline G3, though, is completely unexpected. 
+Comparing these conclusions with the results of our applied method (as show in table \ref{ViolationsPerGuideline}) shows that our predictions for guidelines G2, G4, G5 and G7 do match the results. The results for guideline G3, though, is completely unexpected. 
 
 Upon further analysis, we found a reason for this. Many process models of the collection have multiple pools or subprocesses, which, according to the notation, require new start and end events, causing a distortion in the number of events that a process model has. Therefore, we must take said distortion into account for our statistical analysis. Nevertheless, our plugin that verifies process models is doing this correctly.
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.8.31)  23 NOV 2016 17:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.8.31)  24 NOV 2016 16:59
 entering extended mode
 **./verificacaoProcessosAtravesDeOntologias.tex
 (verificacaoProcessosAtravesDeOntologias.tex
@@ -764,47 +764,48 @@ LaTeX Warning: No positions in optional float specifier.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 166.
 
-[3 <./SIQFramework.png>]
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 202.
- <method.png, id=20, 822.07124pt x 314.17375pt>
+[3 <./SIQFramework.png>] <method.png, id=20, 822.07124pt x 314.17375pt>
 File: method.png Graphic file (type png)
 
 <use method.png>
-Package pdftex.def Info: method.png used on input line 210.
+Package pdftex.def Info: method.png used on input line 205.
 (pdftex.def)             Requested size: 449.59116pt x 171.82292pt.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 220.
+               Default added (so using `tbp') on input line 210.
 
 
-Underfull \hbox (badness 1472) in paragraph at lines 228--228
+Underfull \hbox (badness 1472) in paragraph at lines 218--218
 \OT1/ptm/m/n/10 duce the num-ber of Start and End
  []
 
 [4]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 249.
+               Default added (so using `tbp') on input line 245.
 
 
-Overfull \hbox (5.68538pt too wide) in paragraph at lines 253--262
+Overfull \hbox (5.68538pt too wide) in paragraph at lines 249--258
  [][] 
  []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 272.
+               Default added (so using `tbp') on input line 268.
 
 [5 <./method.png>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 299.
+               Default added (so using `tbp') on input line 295.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 328.
+               Default added (so using `tbp') on input line 325.
 
 [6] (verificacaoProcessosAtravesDeOntologias.bbl
 Underfull \hbox (badness 1132) in paragraph at lines 25--30
@@ -825,11 +826,11 @@ Underfull \hbox (badness 1147) in paragraph at lines 98--102
 
 ] (verificacaoProcessosAtravesDeOntologias.aux) ) 
 Here is how much of TeX's memory you used:
- 4588 strings out of 493334
- 65478 string characters out of 3136678
+ 4584 strings out of 493334
+ 65429 string characters out of 3136678
  136029 words of memory out of 3000000
- 8005 multiletter control sequences out of 15000+200000
- 54112 words of font info for 118 fonts, out of 3000000 for 9000
+ 8002 multiletter control sequences out of 15000+200000
+ 51979 words of font info for 115 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,14n,40p,950b,288s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX
@@ -839,7 +840,7 @@ e1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/
 public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/ur
 w/times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utm
 r8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on verificacaoProcessosAtravesDeOntologias.pdf (8 pages, 137450 
+Output written on verificacaoProcessosAtravesDeOntologias.pdf (8 pages, 137307 
 bytes).
 PDF statistics:
  59 PDF objects out of 1000 (max. 8388607)
