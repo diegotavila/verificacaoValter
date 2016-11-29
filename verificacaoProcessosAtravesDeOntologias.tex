@@ -21,6 +21,8 @@
 \usepackage{apalike}
 \usepackage{SCITEPRESS}     % Please add other packages that you may need BEFORE the SCITEPRESS.sty package.
 
+
+
 \subfigtopskip=0pt
 \subfigcapskip=0pt
 \subfigbottomskip=0pt
@@ -38,7 +40,7 @@
 
 
 %CASE STUDY? What did Pimenta say?
-\abstract{Designing process models easy to understand is a complex task.  Process analysts must rely on the experience of expert systems managers to achieve process models with high comprehensibility, also known as pragmatic quality. In the literature, this integration procedure is portrayed as process modeling guidelines that help modelers avoid common issues that hinder the comprehension of the process model. In this paper, we show a method for semi-automatically verifying business process models according to process modeling guidelines. This method uses the BPMN Ontology and the ontology editor \textit{Protégé} to assist the modeler with validation of the process model's syntax before following with verifying its pragmatic quality. The validation of the method was applied to a collection of 31 process models andthe results are show in the case study here described.}
+\abstract{Designing process models easy to understand is a complex task.  Process analysts must rely on the experience of expert systems managers to achieve process models with high comprehensibility, also known as pragmatic quality. In the literature, this integration procedure is portrayed as process modeling guidelines that help modelers avoid common issues that hinder the comprehension of the process model. In this paper, we show a method for semi-automatically verifying business process models according to process modeling guidelines. This method uses the BPMN Ontology and the ontology editor \textit{Protégé} to assist the modeler with validation of the process model's syntax before following with verifying its pragmatic quality. The validation of the method was applied to a collection of 31 process models and the results are show in the application study here described.}
 
 \onecolumn \maketitle \normalsize \vfill
 
@@ -68,7 +70,7 @@ However, using guidelines to verify a process model doesn't make sense if it isn
 
 
 %Ontology - Verifies correctness
-It is possible to verify the correctness of process models in  different ways. One of these is by the means of ontologies. Ontology is the study of being, which pursues to represent the world as entities, categories and relations \cite{Mendling2008}. In a more practical setting, an ontology provides an approach to define types, properties and relations. Given this, we can use an ontology for process models as a meta-model to verify a process model's correctness.
+It is possible to verify the correctness of process models in  different ways. One of these is by the means of ontologies. Ontology is the study of being, which pursues to represent the world as entities, categories and relations \cite{Guizzardi2012} \cite{Mendling2008}. In a more practical setting, an ontology provides an approach to define types, properties and relations. Given this, we can use an ontology for process models as a meta-model to verify a process model's correctness.
 
 
 %Hypothesis and %Objectives
@@ -76,7 +78,7 @@ Following these lines, the purpose of this paper is to show how the use of ontol
 
 
 %PaperStructure
-This paper is organized as follows: Section \ref{RelatedWorks} outlines previous works related to the verification of process models. Section \ref{Background} shortly introduces the basic concepts used in this paper. Section \ref{Methodology} displays the context we choose to work with and the method we developed. Section \ref{CaseStudy} presents our case study and our results. Section \ref{Conclusion} closes the paper with our conclusions.
+This paper is organized as follows: Section \ref{RelatedWorks} outlines previous works related to the verification of process models. Section \ref{Background} shortly introduces the basic concepts used in this paper. Section \ref{Methodology} displays the context we choose to work with and the method we developed. Section \ref{CaseStudy} presents our application study and our results. Section \ref{Conclusion} closes the paper with our conclusions.
 
 \section{RELATED WORKS}\label{RelatedWorks}
 
@@ -117,7 +119,7 @@ This difficulty motivated the creation of many frameworks that try to define wha
 
 \begin{figure}
 	\centering
-	\includegraphics[scale=0.8]{SIQFramework.png}
+	\includegraphics[scale=0.8]{SIQFramework.pdf}
 	\caption{The SIQ Framework (adapted from \cite{Reijers2015})}
 	\label{SIQFigure}
 \end{figure}
@@ -126,7 +128,7 @@ Syntactic quality is the basis for the other two qualities. As mentioned before,
 
 %TODO - Mention OWL?
 %BPMN Ontology
-As previously explained, it's possible to do this verification using an ontology. More specifically, we can use an ontology design to serve as a meta-model for a process modeling notation. In the case of BPMN, there exists what is called the \textit{BPMN Ontology} \cite{Rospocher2014foisbpmn}, which supports the mapping of a BPMN process model into elements of the ontology, while preserving the relations and strutures between the process model elements. That way, we can use an inference engine to verify the mapped process model, to check if the static properties of BPMN model, i.e its structure, is correct according to the BPMN syntax.
+As previously explained, it's possible to do this verification using an ontology. More specifically, we can use an ontology design to serve as a meta-model for a process modeling notation. In the case of BPMN, there exists what is called the \textit{BPMN Ontology} \cite{Rospocher2014foisbpmn}, which supports the mapping of a BPMN process model into elements of the ontology, while preserving the relations and structures between the process model elements. That way, we can use an inference engine to verify the mapped process model, to check if the static properties of BPMN model, i.e its structure, is correct according to the BPMN syntax.
 
 
 %To verify these guidelines, we need to transform the model from the BPMN standard into a more formal one, which in this case is an ontology, because, in computer science, the most common definition of an ontology is an explicit and formal specification of a shared conceptualization \cite{borst1997ontology, Gruber1995907, Studer1998161}. The transformation between BPMN and an ontology is done through the use of the already existing \textit{BPMN Ontology} \cite{Rospocher2014foisbpmn}. This allows us to verify the process model, or more precisely its structure, through the use of an ontological reasoner. 
@@ -145,15 +147,15 @@ Finally, assuming the process model is indeed correct, we can try to ensure its 
 	\item[G7] Decompose a model with more than 50 elements.
 \end{enumerate}
 
-%SWTICH NAME
+%SWITCH NAME
 \section{A METHOD FOR VERIFYING PROCESS MODELS BASED ON PROCESS MODELING GUIDELINES}\label{Methodology}
 \begin{table}[]
 	\centering
-	\caption{Parameters tested for each guideline from 7PMG}
+	\caption{Indicators tested for each guideline from 7PMG}
 	\label{Metrics}
 	\begin{tabular}{|c|c|}
 		\hline
-		7PMG & Metrics and Comparisons \\ \hline
+		7PMG & Indicators and Comparisons \\ \hline
 		G1 & Number of Elements $>$ 30 \\ \hline
 		G2 & Highest Element Degree $>$ 7 \\ \hline
 		G3 & \begin{tabular}[c]{@{}c@{}}Number of StartEvents $>$ 1\\ Number of End Events $>$ 1\end{tabular} \\ \hline
@@ -205,7 +207,7 @@ The first step of the method is to prepare \textit{Protégé} for instantiating 
 Following this, the individual elements from the BPMN models can be extracted and instantiated into the ontology by a Java plugin which reads the .bpmn file of the process models and extracts its tasks, gateways, sequence flows and messages. After that, this same plugin uses the OWL-API to create individuals for each element, mapping and instantiating them according to each type described by the BPMN Ontology. The table \ref{bpmnOntologyMapping} shows the mapping.
 
 \begin{figure*}
-	\includegraphics[width=\textwidth ]{method.png}
+	\includegraphics[width=\textwidth ]{method.pdf}
 	\caption{Steps to verify process models based on process modeling guidelines}
 	\label{methodFigure}
 \end{figure*}
@@ -229,7 +231,7 @@ Once the entire process model has been instantiated in the ontology, the \textit
 
 The final steps of this method are checking the process model according the seven process modeling guidelines and recommending alterations based upon the results. Another Java Plugin checks the process model's indicators and, for each violated guideline, recommends actions according to the table \ref{RecommendedActions}.
 
-The entire series of steps is as follow (figure \ref{methodFigure}):
+The entire series of steps is as follows (figure \ref{methodFigure}):
 
 \begin{enumerate}
 	\item Load the BPMN Ontology in \textit{Protégé}
@@ -258,7 +260,7 @@ The entire series of steps is as follow (figure \ref{methodFigure}):
 	\end{tabular}
 \end{table*}
 
-\section{CASE STUDY AND RESULTS}\label{CaseStudy}
+\section{APPLICATION STUDY AND RESULTS}\label{CaseStudy}
 
 \noindent To validate our method, we applied it to a collection of 31 BPMN models. These are models of the processes of a university, created by BPM students, verified and corrected by their professor and semantically validated by each process stakeholders. 
 
@@ -322,7 +324,7 @@ Upon further analysis, we found a reason for this. Many process models of the co
 \noindent Process models that follow the guidelines of process modeling are more likely to be understood by the process stakeholders. With the help of process modeling tools that support those guidelines, modelers can more easily represent and communicate the mechanisms of a process through the models, achieving higher levels of modeling quality that improve the work of an organization.
 
 %CASE STUDY?
-Through our case study, we have perceived the difficulty that beginner modelers experience in creating process models that follow modeling guidelines. The majority of process models in the collection have at least one aspect that is inefficient for the comprehension of it (table \ref{ModelsPerQuantityOfViolation}). It is observable that beginners need help in finding these inefficiencies and that this may only be accomplished if more support is given from the software modeling tools.
+Through our application study, we have perceived the difficulty that beginner modelers experience in creating process models that follow modeling guidelines. The majority of process models in the collection have at least one aspect that is inefficient for the comprehension of it (table \ref{ModelsPerQuantityOfViolation}). It is observable that beginners need help in finding these inefficiencies and that this may only be accomplished if more support is given from the software modeling tools.
 
 \begin{table}[]
 	\centering
