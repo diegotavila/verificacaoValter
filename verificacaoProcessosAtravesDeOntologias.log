@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.8.31)  29 NOV 2016 15:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.8.31)  14 DEC 2016 14:18
 entering extended mode
 **./verificacaoProcessosAtravesDeOntologias.tex
 (verificacaoProcessosAtravesDeOntologias.tex
@@ -574,11 +574,17 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 75.
 )
-(apalike.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\natbib\natbib.sty"
+Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip60
+\bibsep=\skip61
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count116
+) (apalike.sty
+\bibhang=\skip62
 ) (SCITEPRESS.sty
 Conference Style for SCITEPRESS for LaTeX 2e -- version of April 2015
-\titlebox=\skip61
+\titlebox=\skip63
 ) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\caption.sty"
 Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
 
@@ -593,7 +599,7 @@ Package caption3 Info: TeX engine: e-TeX on input line 67.
 \caption@parindent=\dimen135
 \caption@hangindent=\dimen136
 )
-\c@ContinuedFloat=\count116
+\c@ContinuedFloat=\count117
 Package caption Info: subfigure package is loaded.
 )
 (verificacaoProcessosAtravesDeOntologias.aux)
@@ -620,16 +626,16 @@ LaTeX Font Info:    ... okay on input line 30.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count117
+\scratchcounter=\count118
 \scratchdimen=\dimen137
 \scratchbox=\box54
-\nofMPsegments=\count118
-\nofMParguments=\count119
+\nofMPsegments=\count119
+\nofMParguments=\count120
 \everyMPshowfont=\toks29
-\MPscratchCnt=\count120
+\MPscratchCnt=\count121
 \MPscratchDim=\dimen138
-\MPnumerator=\count121
-\makeMPintoPDFobject=\count122
+\MPnumerator=\count122
+\makeMPintoPDFobject=\count123
 \everyMPtoPDFconversion=\toks30
 ) ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
 Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
@@ -679,99 +685,104 @@ G,.JBIG2,.JB2,.eps]
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 45.
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 45.
-LaTeX Font Info:    Try loading font information for OT1+ptmcm on input line 45
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 47.
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 47.
+LaTeX Font Info:    Try loading font information for OT1+ptmcm on input line 47
 .
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1ptmcm.fd"
 File: ot1ptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ptmcm.
 )
-LaTeX Font Info:    Try loading font information for OML+ptmcm on input line 45
+LaTeX Font Info:    Try loading font information for OML+ptmcm on input line 47
 .
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omlptmcm.fd"
 File: omlptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ptmcm.
 )
-LaTeX Font Info:    Try loading font information for OMX+psycm on input line 45
+LaTeX Font Info:    Try loading font information for OMX+psycm on input line 47
 .
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omxpsycm.fd"
 File: omxpsycm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/psycm.
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 45.
+LaTeX Font Info:    Try loading font information for U+msa on input line 47.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 45.
+LaTeX Font Info:    Try loading font information for U+msb on input line 47.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <11> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 45.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 47.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.69997> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 45.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 47.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5.5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 45.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 47.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 45.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 47.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 45.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 47.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 45.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 47.
 LaTeX Font Info:    Font shape `OMS/ptm/m/it' in size <9> not available
-(Font)              Font shape `OMS/pzccm/m/n' tried instead on input line 45.
+(Font)              Font shape `OMS/pzccm/m/n' tried instead on input line 47.
 
-Underfull \hbox (badness 10000) in paragraph at lines 45--45
+Underfull \hbox (badness 10000) in paragraph at lines 47--47
 
  []
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <13> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 47.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 49.
 [1{C:/Users/INF/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
 
 
 ]
-Underfull \hbox (badness 1168) in paragraph at lines 95--96
+Underfull \hbox (badness 1168) in paragraph at lines 93--94
 \OT1/ptm/m/n/10 guide-lines for mod-el-ing pro-cesses, with re-peated
  []
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 97.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 95.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 97.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 95.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 97.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 95.
 
 Underfull \hbox (badness 1038) in paragraph at lines 104--105
 \OT1/ptm/m/n/10 The mod-el-ing task of BPM is of-ten done us-ing
  []
 
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/pzccm/m/n' tried instead on input line 113.
+(Font)              Font shape `OMS/pzccm/m/n' tried instead on input line 111.
 
 [2] <SIQFramework.pdf, id=12, 243.91125pt x 218.8175pt>
 File: SIQFramework.pdf Graphic file (type pdf)
  <use SIQFramework.pdf>
-Package pdftex.def Info: SIQFramework.pdf used on input line 122.
+Package pdftex.def Info: SIQFramework.pdf used on input line 120.
 (pdftex.def)             Requested size: 195.12926pt x 175.05423pt.
 
+[3 <./SIQFramework.pdf>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 152.
+               Default added (so using `tbp') on input line 153.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 169.
+               Default added (so using `tbp') on input line 170.
 
-[3 <./SIQFramework.pdf>] <method.pdf, id=21, 821.0675pt x 313.17pt>
+
+Underfull \hbox (badness 1184) in paragraph at lines 203--204
+[]\OT1/ptm/m/n/10 Having made these de-ci-sions, we spec-i-fied a
+ []
+
+[4] <method.pdf, id=24, 821.0675pt x 313.17pt>
 File: method.pdf Graphic file (type pdf)
-
-<use method.pdf>
+ <use method.pdf>
 Package pdftex.def Info: method.pdf used on input line 210.
 (pdftex.def)             Requested size: 449.59116pt x 171.47945pt.
 
@@ -784,35 +795,33 @@ Underfull \hbox (badness 1472) in paragraph at lines 223--223
 \OT1/ptm/m/n/10 duce the num-ber of Start and End
  []
 
-[4]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 248.
 
 
-Overfull \hbox (5.68538pt too wide) in paragraph at lines 252--261
- [][] 
- []
-
-
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 271.
 
-[5 <./method.pdf>]
+[5]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 298.
+               Default added (so using `tbp') on input line 299.
 
+[6 <./method.pdf>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 329.
+               Default added (so using `tbp') on input line 326.
 
-(verificacaoProcessosAtravesDeOntologias.bbl [6]
+(verificacaoProcessosAtravesDeOntologias.bbl
+Underfull \vbox (badness 1701) has occurred while \output is active []
+
+
 Underfull \hbox (badness 1132) in paragraph at lines 25--30
 []\OT1/ptm/m/n/10 Gassen, J. B., Mendling, J., Thom, L. H., and
  []
 
-
+[7]
 Underfull \hbox (badness 1540) in paragraph at lines 104--108
 \OT1/ptm/m/n/10 Busi-ness Pro-cess Qual-ity Man-age-ment.  In
  []
@@ -822,25 +831,24 @@ Underfull \hbox (badness 1147) in paragraph at lines 104--108
 \OT1/ptm/m/it/10 Hand-book on Busi-ness Pro-cess Man-age-ment
  []
 
-[7]) [8
-
-] (verificacaoProcessosAtravesDeOntologias.aux) ) 
+) [8] (verificacaoProcessosAtravesDeOntologias.aux) ) 
 Here is how much of TeX's memory you used:
- 4584 strings out of 493334
- 65440 string characters out of 3136678
- 136046 words of memory out of 3000000
- 8003 multiletter control sequences out of 15000+200000
+ 4971 strings out of 493334
+ 70760 string characters out of 3136678
+ 146100 words of memory out of 3000000
+ 8386 multiletter control sequences out of 15000+200000
  51979 words of font info for 115 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,14n,40p,940b,288s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files (x86)/MiKTeX
- 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/t
-ype1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/typ
-e1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/ur
-w/times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utm
-r8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on verificacaoProcessosAtravesDeOntologias.pdf (8 pages, 235501 
+ 41i,14n,42p,959b,306s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files (x86)/Mi
+KTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program Files (x86)/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type
+1/urw/times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times
+/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pf
+b>
+Output written on verificacaoProcessosAtravesDeOntologias.pdf (8 pages, 239438 
 bytes).
 PDF statistics:
  62 PDF objects out of 1000 (max. 8388607)
